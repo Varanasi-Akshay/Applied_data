@@ -1,0 +1,201 @@
+---
+title: "L14_ME397M_CLUSTERING"
+output: html_notebook
+---
+
+This is some R code to go along with Fall 2018 Applied engineering Data analysis, optimization and visualization, Lecture 14, clustering data. (c) Joshua Rhodes, PhD.
+
+```{r}
+## load 'em up
+library(fpc)
+library(cluster)
+library(NbClust)
+library(HSAUR)
+library(factoextra)
+library(dplyr)
+library(dbscan)
+library(ape)
+```
+
+```{r}
+## clustering data to make up
+
+set.seed(1)
+
+## generate some made-up data that is pretty closely clustered
+## rnorm give you n random samples from a normal distribution
+x1 <- rnorm(n = 50, mean = 3)
+y1 <- rnorm(n = 50, mean = 3)
+x2 <- rnorm(n = 50, mean = 6)
+y2 <- rnorm(n = 50, mean = 5)
+x3 <- rnorm(n = 50, mean = 7)
+y3 <- rnorm(n = 50, mean = 1)
+
+## bind the origional data together and give it some color
+v1 <- as.data.frame(cbind(x1, y1))
+v1$col <- 'red'
+v2 <- as.data.frame(cbind(x2, y2))
+names(v2) <- c('x1', 'y1')
+v2$col <- 'blue'
+v3 <- as.data.frame(cbind(x3, y3))
+names(v3) <- c('x1', 'y1')
+v3$col <- 'green'
+
+## merge all the data together 
+raw_data <- as.data.frame(rbind(v1, v2, v3))
+
+## See 10 random rows
+sample_n(raw_data, 10)
+
+## plot the data
+plot(y1 ~ x1, data = raw_data, pch = 16, col = col)
+```
+
+```{r}
+## scale the data, scales around 0
+raw_data_scaled <- raw_data
+
+raw_data_scaled$x1 <- scale(raw_data_scaled$x1)
+raw_data_scaled$y1 <- scale(raw_data_scaled$y1)
+
+## See 10 random rows
+sample_n(raw_data_scaled, 10)
+
+## plot the data
+plot(y1 ~ x1, data = raw_data_scaled, pch = 16, col = col)
+
+```
+
+```{r}
+## this is a test to help determine how many clusters that our data might have
+nc <- NbClust(data = raw_data_scaled[,1:2], method = 'kmeans')
+
+## Warning: just becuase this test tells us that 3 is the best, we should make sure that makes since given our understaing of the data
+
+```
+
+```{r}
+## we now perform the k-means clustering with the 3 specified clusters
+k1 <- kmeans(x = raw_data_scaled[,1:2], iter.max = 100, centers = 3)
+
+## see output
+k1
+
+## merge together the origional data with the selected cluster
+data_km <- cbind(raw_data_scaled, k1$cluster)
+
+names(data_km) <- c('x1', 'y1', 'col', 'clus')
+data_km$col2 <- 'blue'
+data_km$col2[data_km$clus == 2] <- 'red'
+data_km$col2[data_km$clus == 1] <- 'green'
+
+
+## plot both the origional data sent to the clustering and the post clustered data
+plot(y1 ~ x1, data = data_km, pch = 16, col = col, main = 'Original groups')
+plot(y1 ~ x1, data = data_km, pch = 16, col = col2, main = 'Clustered goups')
+```
+
+```{r}
+## see what data can be extracted from k1 (also lm, etc -- structured output)
+k1[]
+```
+
+```{r}
+## extract the k-means centers
+k1$centers
+
+## plot clusters and cluster centers
+plot(y1 ~ x1, data = data_km, pch = 16, col = col2, main = 'Clustered goups, kmeans')
+points(k1$centers[1,1], k1$centers[1,2], col = 'black', pch = 13, cex = 2)
+points(k1$centers[2,1], k1$centers[2,2], col = 'black', pch = 13, cex = 2)
+points(k1$centers[3,1], k1$centers[3,2], col = 'black', pch = 13, cex = 2)
+
+```
+
+```{r}
+## density based clustering using dbscan, same data
+db1 <- dbscan(x = raw_data_scaled[,1:2], eps = 0.3, minPts = 4)
+db1
+
+data_db <- cbind(raw_data_scaled, db1$cluster)
+
+## name data and get colors of clusters and noise points (clus == 0)
+names(data_db) <- c('x1', 'y1', 'col', 'clus')
+data_db$col2[data_db$clus == 3] <- 'blue'
+data_db$col2[data_db$clus == 2] <- 'red'
+data_db$col2[data_db$clus == 1] <- 'green'
+data_db$col2[data_db$clus == 0] <- 'gray'
+
+plot(y1 ~ x1, data = data_db, pch = 16, col = col2, main = 'Clustered goups, dbscan')
+
+```
+
+
+```{r}
+## clustering lines (24-dimensional vector) with kmeans
+## read in some time series data, actual home energy use profiles for 111 homes in Austin, TX
+profiles_data <- read.csv('FINAL_summer_profiles.csv')
+# set the dataid as the row.name so that we can keep track of it later
+row.names(profiles_data) <- profiles_data$X
+# since the dataid is now the row.name, we can drop it
+profiles_data <- profiles_data[,2:25]
+
+head(profiles_data)
+
+# plot the origional data
+matplot(t(profiles_data), type = "l", col = 'black', lty = 1)
+```
+
+```{r}
+## this is a test to help determine how many clusters that our data might have
+NbClust(profiles_data, method = 'kmeans')
+
+# do the clustering analysis on the data itself
+profiles_clust <- kmeans(x = profiles_data, centers = 2, nstart = 5)
+
+# merge tegether the origional data with the new cluster number
+p2 <- cbind(profiles_data, profiles_clust$cluster)
+
+# I just want to rename the last column
+names(p2) <- c(names(p2[1:24]), 'cluster')
+
+## reset graphcis paramenters
+par(mfrow=c(1,1))
+
+## plot the origional data as well as the new cluster "center"
+matplot(t(p2[p2$cluster == 1,1:24]), type = "l", col = 'orange', lty = 2)
+matplot(profiles_clust$centers[1,], type = "l", col = 'orange', lty = 1, lwd = 5, add = T)
+
+matplot(t(p2[p2$cluster == 2,1:24]), type = "l", col = 'blue', lty = 2, add = T)
+matplot(profiles_clust$centers[2,], type = "l", col = 'blue', lty = 1, lwd = 5, add = T)
+```
+
+```{r}
+## Hierarchical clustering 
+
+## read in 2016 EIA data, subset down to ERCOT (TX) power plants (NERC.Region = TRE)
+tx <- read.csv('tx_plants.csv', stringsAsFactors = F)
+
+## limit the data to just NGCC and coal plants
+tx <- tx[tx$tech %in% c('Natural Gas Fired Combined Cycle', 'Conventional Steam Coal'),]
+tx$tech[tx$tech == 'Natural Gas Fired Combined Cycle'] <- 'NGCC'
+tx$tech[tx$tech == 'Conventional Steam Coal'] <- 'Coal'
+tx <- tx[tx$heat_rate < 20000,]
+tx$col <- 'blue'
+tx$col[tx$tech == 'Coal'] <- 'orange'
+
+head(tx)
+
+## cluster on columns 3 - 5 (plant size, capacity factor, and heatrate)
+clusters <- hclust(dist(tx[, 3:5]))
+
+## cut the tree at two clusers and see how good it was at predicting
+clusterCut <- cutree(clusters, 2)
+table(clusterCut, tx$tech)
+
+## plot the tree
+plot(as.phylo(clusters), cex = 0.5, tip.color = tx$col, label.offset = 1)
+
+```
+
+

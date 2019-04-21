@@ -1,0 +1,198 @@
+---
+title: "L10 GIS in R"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+```{r}
+## all the libraries 
+library(sp)
+library(rgdal)
+library(raster)
+library(colorRamps)
+library(rasterVis)
+library(rgeos)
+```
+
+```{r}
+## read in county shapefile data
+county <- shapefile('US_COUNTY_SHPFILE/US_county_cont.shp')
+
+county
+head(county)
+```
+
+```{r}
+## draw the plot of US counties
+plot(county)
+```
+
+```{r}
+## simple R-type subset of the polygon can give you only Texas
+tx <- county[county$STATE_NAME == 'Texas',]
+head(tx)
+
+## plot just Texas
+plot(tx)
+```
+
+```{r}
+## plot Texas between certain lat/long cordinates using R syntax
+plot(tx, ylim = c(31, 34), xlim = c(-106, -98))
+box() ## put a box on it! works on most all plots, puts a box around the "plot area" just inside the margins: mar = c(...)
+
+```
+
+```{r}
+## plot just Travis county, TX
+plot(county[county$NAME == 'Travis',])
+```
+
+```{r}
+## Plot Travis and Williamson counties
+plot(county[county$NAME %in% c('Travis', 'Williamson'),])
+```
+
+```{r}
+## Plot Travis and Williamson counties in Texas only
+plot(county[county$NAME %in% c('Travis', 'Williamson') & county$STATE_NAME == 'Texas',])
+```
+
+```{r}
+## transform that data to a more conocial view
+county <- spTransform(county, CRS("+init=epsg:26978")) # Transformed it into different reference system
+
+plot(county)
+```
+
+```{r}
+## read in shapefile of CO2 pipelines
+co2 <- shapefile('CO2_pipeline_shapefile/CO2_shpfile.shp')
+co2
+head(co2)
+
+print(crs(county))
+print(crs(co2))
+
+
+## transform that data to a more conocial view
+#co2 <- spTransform(co2, CRS("+init=epsg:26978"))
+
+plot(county)
+plot(co2, add = T, col = 'red', lwd = 3)
+```
+
+
+```{r}
+## simple subset of the polygon using R syntax
+tx <- county[county$STATE_NAME == 'Texas',]
+
+plot(tx)
+```
+
+```{r}
+## read in shapefile of CO2 pipelines
+co2 <- shapefile('CO2_pipeline_shapefile/CO2_shpfile.shp')
+
+## transform that data to a more conocial view
+co2 <- spTransform(co2, CRS("+init=epsg:26978"))
+
+plot(tx)
+
+plot(co2, add = T, col = 'red', lwd = 3)
+```
+
+```{r}
+########################## plotting points (power plant) data from x-y coordinates (lat-long) ########################## 
+
+eia <- read.csv('RHODES_JOSHUA_EIA_2016_data.csv')
+ll <- read.csv('EIA_F860M_LL.csv')
+m1 <- merge(x = eia, y = ll, by.x = 'Plant.Code', by.y = 'Plant.ID')
+head(m1) # just a regular dataframe, for now...
+```
+
+```{r}
+## convert the points to the same projection as the county and make a shapefile of the points 
+
+m2 = SpatialPointsDataFrame(cbind(m1$Longitude,m1$Latitude), data = m1, proj4string = CRS("+init=epsg:4202")) # for some reason you have to convert it to a couple to get it to work...
+m2 <- spTransform(m2, CRS("+init=epsg:26978"))
+
+m2
+head(m2)
+
+## write a shapefile of what you just made
+shapefile(m2, "power_plant_shapefile.shp", overwrite = T)
+
+## use the same command to read in that shapefile
+pp2 <- shapefile('power_plant_shapefile.shp')
+
+head(pp2)
+
+plot(tx)
+plot(pp2, add = T, col = 'blue')
+```
+
+```{r}
+############################################## intersections ##############################################
+
+## get the polygons (counties in Texas) that intersect (touch) the CO2 pipelines
+tx_counties_with_co2_pipelines <- raster::intersect(tx, co2)
+
+## get the CO2 pipeline segments that are inside Texas counties (polygons in tx)
+co2_pipelines_in_tx <- raster::intersect(co2, tx)
+
+## get the power plants (points) that are inside Texas (inside polygons in tx)
+pp_in_tx <- raster::intersect(pp2, tx)
+
+#tx_counties_with_co2_pipelines <- spTransform(tx_counties_with_co2_pipelines, crs(tx))
+#co2_pipelines_in_tx <- spTransform(co2_pipelines_in_tx, crs(tx))
+#pp_in_tx <- spTransform(pp_in_tx, crs(tx))
+
+plot(tx)
+
+## plot the couties with CO2 pipelines in orange, the CO2 pipelines in red, the power plants inside Texas in blue
+plot(tx_counties_with_co2_pipelines, add = T, col = 'orange', lwd = 2)
+plot(co2_pipelines_in_tx, add = T, col = 'red', lwd = 3)
+plot(pp_in_tx, add = T, col = 'blue')
+```
+
+```{r}
+## get names from data.frame just like in regular R
+head(pp_in_tx)
+unique(pp_in_tx$Tchnl)
+
+## subset the Texas power plants to just the NGCC plants
+ngcc_tx <- pp_in_tx[pp_in_tx$Tchnl == 'Natural Gas Fired Combined Cycle',]
+
+############## plot stuff from above chunk ######################
+plot(tx)
+
+## plot the couties with CO2 pipelines in orange, the CO2 pipelines in red, the power plants inside Texas in blue
+plot(tx_counties_with_co2_pipelines, add = T, col = 'orange', lwd = 2)
+plot(co2_pipelines_in_tx, add = T, col = 'red', lwd = 3)
+plot(pp_in_tx, add = T, col = 'blue')
+#################################################################
+
+plot(ngcc_tx, add = T, col = 'green', pch = 20)
+
+## add a title
+mtext(side = 3, text = 'All the things in Texas', cex = 3)
+
+## save a shapefile of the NGCC power plants in Texas
+shapefile(ngcc_tx, 'ngcc_powerplants_tx.shp', overwrite = T)
+```
+
+
+
+
+
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I* in Mac or *Ctrl+Alt+I* in Ubuntu.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+

@@ -1,0 +1,598 @@
+"Utility.ID","Utility.Name","Plant.Code","Technology","Plant.Name","Energy.Source.1","Prime.Mover","Nameplate.Capacity","Operating.Year.avg","Operating.Year.max","Operating.Year.min","retire"
+"10000","Kansas City Power & Light Co",2080,"Conventional Steam Coal","Montrose","SUB","ST",188,1958,1958,1958,1
+"10171","Kentucky Utilities Co",1357,"Conventional Steam Coal","Green River","BIT","ST",263.6,1953,1959,1950,1
+"10171","Kentucky Utilities Co",1360,"Conventional Steam Coal","Pineville","BIT","ST",37.5,1951,1951,1951,1
+"10171","Kentucky Utilities Co",1361,"Conventional Steam Coal","Tyrone","BIT","ST",75,1953,1953,1953,1
+"109","Ag Processing Inc",10223,"Conventional Steam Coal","AG Processing Inc","SUB","ST",8.5,1982,1982,1982,1
+"11142","City of Logansport - (IN)",1032,"Conventional Steam Coal","Logansport","BIT","ST",43,1961,1964,1958,1
+"11249","Louisville Gas & Electric Co",1363,"Conventional Steam Coal","Cane Run","BIT","ST",644.6,1966,1969,1962,1
+"11479","Madison Gas & Electric Co",3992,"Conventional Steam Coal","Blount Street","BIT","ST",87.5,1941,1953,1925,1
+"11571","Manitowoc Public Utilities",4125,"Conventional Steam Coal","Manitowoc","BIT","ST",15,1938,1941,1935,1
+"11732","City of Marshall - (MO)",2144,"Conventional Steam Coal","Marshall (MO)","BIT","ST",22.5,1962,1967,1956,1
+"1182","BASF Corporation",10320,"Conventional Steam Coal","Enka","BIT","ST",16.3,1957,1984,1937,1
+"12341","MidAmerican Energy Co",1081,"Conventional Steam Coal","Riverside","SUB","ST",5,1949,1949,1949,1
+"12341","MidAmerican Energy Co",1082,"Conventional Steam Coal","Walter Scott Jr Energy Center","SUB","ST",130.6,1956,1958,1954,1
+"12341","MidAmerican Energy Co",1091,"Conventional Steam Coal","George Neal North","SUB","ST",496.2,1968,1972,1964,1
+"12384","Midwest Generations EME LLC",867,"Conventional Steam Coal","Crawford","SUB","ST",597.4,1960,1961,1958,1
+"12384","Midwest Generations EME LLC",883,"Conventional Steam Coal","Waukegan","SUB","ST",121,1952,1952,1952,1
+"12384","Midwest Generations EME LLC",884,"Conventional Steam Coal","Will County","SUB","ST",670.4,1956,1957,1955,1
+"12384","Midwest Generations EME LLC",886,"Conventional Steam Coal","Fisk Street","SUB","ST",374,1968,1968,1968,1
+"12647","ALLETE, Inc.",10075,"Conventional Steam Coal","Taconite Harbor Energy Center","SUB","ST",84,1967,1967,1967,1
+"12792","NRG New York LLC",2629,"Conventional Steam Coal","Lovett","BIT","ST",380.1,1968,1969,1966,1
+"12796","Monongahela Power Co",3942,"Conventional Steam Coal","FirstEnergy Albright","BIT","ST",278.2,1953,1954,1952,1
+"12796","Monongahela Power Co",3945,"Conventional Steam Coal","FirstEnergy Rivesville","BIT","ST",109.7,1947,1951,1943,1
+"12796","Monongahela Power Co",3946,"Conventional Steam Coal","FirstEnergy Willow Island","BIT","ST",213.2,1954,1960,1949,1
+"12807","Michigan South Central Pwr Agy",4259,"Conventional Steam Coal","Endicott Station","BIT","ST",55,1982,1982,1982,1
+"12986","Morton Salt Inc",54335,"Conventional Steam Coal","Morton Salt Rittman","BIT","ST",1.5,1978,1978,1978,1
+"13168","NRG Huntley Operations Inc",2549,"Conventional Steam Coal","C R Huntley Generating Station","BIT","ST",380,1949,1954,1942,1
+"13168","NRG Huntley Operations Inc",2549,"Conventional Steam Coal","C R Huntley Generating Station","SUB","ST",400,1958,1958,1957,1
+"13407","Nevada Power Co",2324,"Conventional Steam Coal","Reid Gardner","BIT","ST",342,1970,1976,1965,1
+"13657","Norfork Southern Corp",10302,"Conventional Steam Coal","Juniata Locomotive Shop","BIT","ST",4,1955,1955,1955,1
+"13756","Northern Indiana Pub Serv Co",996,"Conventional Steam Coal","Dean H Mitchell","SUB","ST",383.5,1963,1970,1959,1
+"13781","Northern States Power Co - Minnesota",1904,"Conventional Steam Coal","Black Dog","SUB","ST",357.8,1956,1960,1952,1
+"13781","Northern States Power Co - Minnesota",1912,"Conventional Steam Coal","High Bridge","SUB","ST",276.8,1958,1959,1956,1
+"13781","Northern States Power Co - Minnesota",1927,"Conventional Steam Coal","Riverside (MN)","SUB","ST",238.8,1964,1964,1964,1
+"14165","NRG Power Midwest LP",2836,"Conventional Steam Coal","Avon Lake","BIT","ST",86,1949,1949,1949,1
+"14165","NRG Power Midwest LP",2861,"Conventional Steam Coal","Niles Power Plant","BIT","ST",265.6,1954,1954,1954,1
+"14165","NRG Power Midwest LP",3098,"Conventional Steam Coal","Elrama Power Plant","BIT","ST",510,1955,1960,1952,1
+"14165","NRG Power Midwest LP",3099,"Conventional Steam Coal","F R Phillips","BIT","ST",410,1950,1956,1943,1
+"14165","NRG Power Midwest LP",3138,"Conventional Steam Coal","New Castle Plant","BIT","ST",70,1943,1947,1939,1
+"14232","Otter Tail Power Co",1943,"Conventional Steam Coal","Hoot Lake","SUB","ST",7.5,1948,1948,1948,1
+"14354","PacifiCorp",3644,"Conventional Steam Coal","Carbon","BIT","ST",188.6,1956,1957,1954,1
+"14465","Park 500 Philip Morris USA",50275,"Conventional Steam Coal","Park 500 Philip Morris USA","BIT","ST",6.1,1984,1984,1984,1
+"14645","City of Pella - (IA)",1175,"Conventional Steam Coal","Pella","SUB","ST",38,1968,1972,1964,1
+"14839","City of Peru - (IN)",1037,"Conventional Steam Coal","Peru (IN)","BIT","ST",34.5,1954,1959,1949,1
+"15095","City of Piqua - (OH)",2937,"Conventional Steam Coal","Piqua Power Plant","BIT","ST",44.8,1957,1987,1940,1
+"15276","TalenEnergy Martins Creek LLC",3148,"Conventional Steam Coal","TalenEnergy Martins Creek","BIT","ST",312.4,1955,1956,1954,1
+"15298","Talen Montana LLC",2187,"Conventional Steam Coal","J E Corette Plant","SUB","ST",172.8,1968,1968,1968,1
+"15466","Public Service Co of Colorado",465,"Conventional Steam Coal","Arapahoe","SUB","ST",240.5,1952,1955,1950,1
+"15466","Public Service Co of Colorado",468,"Conventional Steam Coal","Cameo","BIT","ST",75,1958,1960,1957,1
+"15466","Public Service Co of Colorado",469,"Conventional Steam Coal","Cherokee","BIT","ST",420.5,1959,1962,1957,1
+"15470","Duke Energy Indiana, LLC",1004,"Conventional Steam Coal","Edwardsport","BIT","ST",109.2,1950,1951,1949,1
+"15470","Duke Energy Indiana, LLC",1008,"Conventional Steam Coal","R Gallagher","BIT","ST",300,1960,1960,1959,1
+"15470","Duke Energy Indiana, LLC",1010,"Conventional Steam Coal","Wabash River","BIT","ST",860.2,1957,1968,1953,1
+"15474","Public Service Co of Oklahoma",2963,"Conventional Steam Coal","Northeastern","SUB","ST",473,1980,1980,1980,1
+"16061","Rio Bravo Jasmin",10768,"Conventional Steam Coal","Rio Bravo Jasmin","BIT","ST",38.2,1989,1989,1989,1
+"16181","Rochester Public Utilities",2008,"Conventional Steam Coal","Silver Lake","BIT","ST",99,1958,1969,1948,1
+"16183","Rochester Gas & Electric Corp",2642,"Conventional Steam Coal","Rochester 7","BIT","ST",252.6,1952,1957,1948,1
+"17043","City of Shelby - (OH)",2943,"Conventional Steam Coal","Shelby Municipal Light Plant","BIT","ST",37,1961,1973,1948,1
+"17235","NRG REMA LLC",3113,"Conventional Steam Coal","Portland (PA)","BIT","ST",255,1962,1962,1962,1
+"17235","NRG REMA LLC",3115,"Conventional Steam Coal","Titus","BIT","ST",225,1952,1953,1951,1
+"17235","NRG REMA LLC",3132,"Conventional Steam Coal","Warren","BIT","ST",84,1948,1949,1948,1
+"17539","South Carolina Electric&Gas Company",3280,"Conventional Steam Coal","Canadys Steam","BIT","ST",489.6,1964,1967,1962,1
+"17543","South Carolina Public Service Authority",3317,"Conventional Steam Coal","Dolphus M Grainger","BIT","ST",163.2,1966,1966,1966,1
+"17543","South Carolina Public Service Authority",3319,"Conventional Steam Coal","Jefferies","BIT","ST",345.6,1970,1970,1970,1
+"17609","Southern California Edison Co",2341,"Conventional Steam Coal","Mohave","SUB","ST",1636.2,1971,1971,1971,1
+"17633","Southern Indiana Gas & Elec Co",1012,"Conventional Steam Coal","F B Culley","BIT","ST",46,1955,1955,1955,1
+"17698","Southwestern Electric Power Co",6139,"Conventional Steam Coal","Welsh","SUB","ST",558,1980,1980,1980,1
+"17828","City of Springfield - (IL)",964,"Conventional Steam Coal","Lakeside","BIT","ST",75,1963,1965,1961,1
+"17891","City of St Marys - (OH)",2942,"Conventional Steam Coal","St Marys","BIT","ST",16,1962,1967,1957,1
+"18454","Tampa Electric Co",646,"Conventional Steam Coal","F J Gannon","BIT","ST",617,1960,1963,1957,1
+"18642","Tennessee Valley Authority",1379,"Conventional Steam Coal","Shawnee","BIT","ST",175,1956,1956,1956,1
+"18642","Tennessee Valley Authority",3405,"Conventional Steam Coal","John Sevier","BIT","ST",800,1956,1957,1955,1
+"18642","Tennessee Valley Authority",3406,"Conventional Steam Coal","Johnsonville","SUB","ST",985.2,1957,1959,1952,1
+"18642","Tennessee Valley Authority",3419,"Conventional Steam Coal","Watts Bar Fossil","BIT","ST",240,1943,1945,1942,1
+"18642","Tennessee Valley Authority",47,"Conventional Steam Coal","Colbert","BIT","ST",1350,1957,1965,1955,1
+"18642","Tennessee Valley Authority",50,"Conventional Steam Coal","Widows Creek","BIT","ST",1968.6,1955,1965,1952,1
+"195","Alabama Power Co",3,"Conventional Steam Coal","Barry","BIT","ST",272,1959,1959,1959,1
+"195","Alabama Power Co",8,"Conventional Steam Coal","Gorgas","BIT","ST",250,1952,1952,1951,1
+"19545","Black Hills Power, Inc. d/b/a",3325,"Conventional Steam Coal","Ben French","SUB","ST",25,1960,1960,1960,1
+"19545","Black Hills Power, Inc. d/b/a",4150,"Conventional Steam Coal","Neil Simpson","SUB","ST",21.7,1959,1959,1959,1
+"19545","Black Hills Power, Inc. d/b/a",4151,"Conventional Steam Coal","Osage (WY)","SUB","ST",34.5,1950,1952,1948,1
+"19724","Vanderbilt University",52048,"Conventional Steam Coal","Vanderbilt University Power Plant","BIT","ST",11,1988,1989,1988,1
+"19876","Virginia Electric & Power Co",3803,"Conventional Steam Coal","Chesapeake","BIT","ST",649.5,1957,1962,1953,1
+"19876","Virginia Electric & Power Co",7537,"Conventional Steam Coal","North Branch (WV)","WC","ST",80,1992,1992,1992,1
+"19883","City of Virginia - (MN)",2018,"Conventional Steam Coal","Virginia","SUB","ST",4,1992,1992,1992,1
+"20508","WestRock Corp",50900,"Conventional Steam Coal","Covington Facility","BIT","ST",21,1942,1946,1939,1
+"2053","Bowater Newport Coosa Pines Op",54216,"Conventional Steam Coal","U S Alliance Coosa Pines","BIT","ST",25,1942,1942,1942,1
+"20737","Willmar Municipal Utilities",2022,"Conventional Steam Coal","Willmar","SUB","ST",4,1949,1949,1949,1
+"20847","Wisconsin Electric Power Co",1769,"Conventional Steam Coal","Presque Isle","BIT","ST",174.7,1962,1966,1955,1
+"20847","Wisconsin Electric Power Co",4040,"Conventional Steam Coal","Port Washington Generating Station","BIT","ST",320,1944,1949,1935,1
+"20847","Wisconsin Electric Power Co",7549,"Conventional Steam Coal","Milwaukee County","SUB","ST",11,1996,1996,1996,1
+"20856","Wisconsin Power & Light Co",4050,"Conventional Steam Coal","Edgewater","SUB","ST",69,1951,1951,1951,1
+"20856","Wisconsin Power & Light Co",4054,"Conventional Steam Coal","Nelson Dewey Generating Station","SUB","ST",227.2,1960,1962,1959,1
+"20860","Wisconsin Public Service Corp",4072,"Conventional Steam Coal","Pulliam","SUB","ST",179,1948,1951,1943,1
+"20860","Wisconsin Public Service Corp",4078,"Conventional Steam Coal","Weston","SUB","ST",60,1954,1954,1954,1
+"2138","Brainerd Public Utilities",50636,"Conventional Steam Coal","Brainerd Public Utilities","BIT","ST",0.6,1959,1959,1959,1
+"22001","Sunbury Generation LP",3152,"Conventional Steam Coal","Sunbury Generation LP","BIT","ST",437.9,1950,1953,1949,1
+"22040","Washington State University",50083,"Conventional Steam Coal","Washington State University","BIT","ST",2,1963,1963,1963,1
+"22053","Kentucky Power Co",1353,"Conventional Steam Coal","Big Sandy","BIT","ST",816.3,1969,1969,1969,1
+"22500","Westar Energy Inc",1250,"Conventional Steam Coal","Lawrence Energy Center","BIT","ST",38,1952,1952,1952,1
+"22500","Westar Energy Inc",1250,"Conventional Steam Coal","Lawrence Energy Center","SUB","ST",49,1955,1955,1955,1
+"22500","Westar Energy Inc",1252,"Conventional Steam Coal","Tecumseh Energy Center","SUB","ST",150,1962,1962,1962,1
+"23279","Allegheny Energy Supply Co LLC",1570,"Conventional Steam Coal","FirstEnergy R Paul Smith Power Station","BIT","ST",109.5,1952,1958,1947,1
+"23279","Allegheny Energy Supply Co LLC",3178,"Conventional Steam Coal","FirstEnergy Armstrong Power Station","BIT","ST",326.4,1958,1959,1958,1
+"23279","Allegheny Energy Supply Co LLC",3179,"Conventional Steam Coal","Hatfields Ferry Power Station","BIT","ST",1728,1970,1971,1969,1
+"23279","Allegheny Energy Supply Co LLC",3181,"Conventional Steam Coal","FirstEnergy Mitchell Power Station","BIT","ST",299.2,1963,1963,1963,1
+"25","Greenidge Generation Holdings LLC",2527,"Conventional Steam Coal","Greenidge Generation LLC","BIT","ST",50,1950,1950,1950,1
+"2769","Cargill Inc",54965,"Conventional Steam Coal","Cargill Salt","BIT","ST",1.9,1935,1935,1935,1
+"30002","International Paper Co",50398,"Conventional Steam Coal","International Paper Savanna Mill","BIT","ST",37.5,1950,1957,1940,1
+"3046","Duke Energy Progress - (NC)",2708,"Conventional Steam Coal","Cape Fear","BIT","ST",328.5,1957,1958,1956,1
+"3046","Duke Energy Progress - (NC)",2709,"Conventional Steam Coal","HF Lee Plant","BIT","ST",402.4,1955,1962,1951,1
+"3046","Duke Energy Progress - (NC)",2713,"Conventional Steam Coal","L V Sutton Steam","BIT","ST",671.6,1960,1972,1954,1
+"3046","Duke Energy Progress - (NC)",2716,"Conventional Steam Coal","W H Weatherspoon","BIT","ST",165.5,1950,1952,1949,1
+"3046","Duke Energy Progress - (NC)",3251,"Conventional Steam Coal","H B Robinson","BIT","ST",206.6,1960,1960,1960,1
+"3258","Central Iowa Power Cooperative",1218,"Conventional Steam Coal","Fair Station","BIT","ST",62.5,1964,1967,1960,1
+"34672","DTE Energy Services",50407,"Conventional Steam Coal","Mobile Energy Services LLC","BIT","ST",12.5,1960,1960,1960,1
+"3486","Chillicothe Municipal Utils",2122,"Conventional Steam Coal","Chillicothe","BIT","ST",13.5,1948,1958,1938,1
+"3542","Duke Energy Ohio Inc",2830,"Conventional Steam Coal","Walter C Beckjord","BIT","ST",1221.3,1958,1969,1952,1
+"3762","City of Cleveland - (OH)",2908,"Conventional Steam Coal","Lake Road (OH)","BIT","ST",160,1954,1967,1941,1
+"3989","City of Colorado Springs - (CO)",492,"Conventional Steam Coal","Martin Drake","SUB","ST",50,1962,1962,1962,1
+"40307","Prairie Power, Inc",6238,"Conventional Steam Coal","Pearl Station","BIT","ST",22,1967,1967,1967,1
+"4045","City of Columbia - (MO)",2123,"Conventional Steam Coal","Columbia (MO)","BIT","ST",16.5,1957,1957,1957,1
+"40577","American Mun Power-Ohio, Inc",7286,"Conventional Steam Coal","Richard Gorsuch","BIT","ST",200,1988,1988,1988,1
+"4254","Consumers Energy Co",1695,"Conventional Steam Coal","B C Cobb","SUB","ST",312.6,1956,1957,1956,1
+"4254","Consumers Energy Co",1720,"Conventional Steam Coal","J C Weadock","SUB","ST",312.6,1956,1958,1955,1
+"4254","Consumers Energy Co",1723,"Conventional Steam Coal","J R Whiting","SUB","ST",345.4,1952,1953,1952,1
+"4716","Dairyland Power Coop",4140,"Conventional Steam Coal","Alma","BIT","ST",181,1952,1960,1947,1
+"4922","Dayton Power & Light Co",2848,"Conventional Steam Coal","O H Hutchings","BIT","ST",414,1950,1953,1948,1
+"49756","Illinois Power Resources Generating LLC",856,"Conventional Steam Coal","E D Edwards","SUB","ST",136,1960,1960,1960,1
+"49805","Kennecott Utah Copper",56163,"Conventional Steam Coal","Kennecott Power Plant","BIT","ST",100,1944,1946,1943,1
+"49923","American Eagle Paper Mills",50284,"Conventional Steam Coal","American Eagle Paper Mills","BIT","ST",17.5,1938,1958,1929,1
+"50006","Invista",10793,"Conventional Steam Coal","Seaford Delaware Plant","BIT","ST",10,1939,1939,1939,1
+"50006","Invista",10796,"Conventional Steam Coal","Waynesboro Virginia Plant","BIT","ST",12.4,1935,1947,1929,1
+"5109","DTE Electric Company",1731,"Conventional Steam Coal","Harbor Beach","BIT","ST",121,1968,1968,1968,1
+"5109","DTE Electric Company",1732,"Conventional Steam Coal","Marysville","BIT","ST",200,1940,1947,1930,1
+"5109","DTE Electric Company",1740,"Conventional Steam Coal","River Rouge","SUB","ST",292.5,1957,1957,1957,1
+"5109","DTE Electric Company",1745,"Conventional Steam Coal","Trenton Channel","SUB","ST",240,1950,1950,1949,1
+"520","Illinois Power Generating Co",6017,"Conventional Steam Coal","Newton","RC","ST",617.4,1982,1982,1982,1
+"5336","City of Dover - (OH)",2914,"Conventional Steam Coal","Dover","BIT","ST",4,1944,1944,1944,1
+"5416","Duke Energy Carolinas, LLC",2720,"Conventional Steam Coal","Buck","BIT","ST",370,1947,1953,1941,1
+"5416","Duke Energy Carolinas, LLC",2723,"Conventional Steam Coal","Dan River","BIT","ST",290,1951,1955,1949,1
+"5416","Duke Energy Carolinas, LLC",2732,"Conventional Steam Coal","Riverbend","BIT","ST",466,1953,1954,1952,1
+"5416","Duke Energy Carolinas, LLC",3264,"Conventional Steam Coal","W S Lee","BIT","ST",180,1951,1951,1951,1
+"54885","NRG Wholesale Generation LP",3130,"Conventional Steam Coal","Seward (PA)","BIT","ST",218.2,1954,1957,1950,1
+"5517","Dynegy Midwest Generation Inc",897,"Conventional Steam Coal","Vermilion","SUB","ST",182.3,1956,1956,1955,1
+"5517","Dynegy Midwest Generation Inc",898,"Conventional Steam Coal","Wood River","RC","ST",500.1,1959,1964,1954,1
+"55768","RC Cape May Holdings LLC",2378,"Conventional Steam Coal","B L England","BIT","ST",136,1962,1962,1962,1
+"5580","East Kentucky Power Coop, Inc",1385,"Conventional Steam Coal","Dale","BIT","ST",216,1956,1960,1954,1
+"55849","Domtar Paper Co LLC Kingsport Mill",10252,"Conventional Steam Coal","Domtar Kingsport Mill","BIT","ST",4,1937,1937,1937,1
+"55903","Domtar Paper Company LLC",50189,"Conventional Steam Coal","Domtar Paper Co LLC Plymouth NC","BIT","ST",15,1952,1956,1949,1
+"55919","Georgia-Pacific Consr Prods LP-Green Bay",10360,"Conventional Steam Coal","Green Bay West Mill","BIT","ST",73.2,1955,2005,1929,1
+"55965","Verso Corporation",10476,"Conventional Steam Coal","Whiting Mill","SUB","ST",4.1,1951,1951,1951,1
+"55965","Verso Corporation",54857,"Conventional Steam Coal","Niagara Mill","BIT","ST",11.8,1952,1964,1940,1
+"55983","Luminant Generation Company LLC",52071,"Conventional Steam Coal","Sandow No 5","LIG","ST",363,1954,1954,1953,1
+"56146","Black Hills/Colorado Elec.Util",462,"Conventional Steam Coal","W N Clark","BIT","ST",43.7,1957,1959,1955,1
+"56150","ArcelorMittal USA Inc",10474,"Conventional Steam Coal","4 AC Station","BIT","ST",135,1963,1963,1963,1
+"56155","Lansing Board of Water and Light",1831,"Conventional Steam Coal","Eckert Station","SUB","ST",135,1957,1960,1954,1
+"56217","Portsmouth Operating Services LLC",10071,"Conventional Steam Coal","Portsmouth Genco LLC","BIT","ST",114.8,1988,1988,1988,1
+"5624","RED-Rochester, LLC",10025,"Conventional Steam Coal","RED-Rochester, LLC","BIT","ST",50.9,1946,1956,1937,1
+"56389","Doyon Utilities - Ft. Wainwright",50308,"Conventional Steam Coal","Utility Plants Section","SUB","ST",2.5,1945,1945,1945,1
+"56730","Cedar Bay Operating Services LLC",10672,"Conventional Steam Coal","Cedar Bay Generating Company LP","BIT","ST",291.6,1994,1994,1994,1
+"58159","Penn State University",58194,"Conventional Steam Coal","West Campus Steam Plant","BIT","ST",6,1944,1949,1938,1
+"58185","FirstLight Power Resources, Inc. - MA",1606,"Conventional Steam Coal","Mount Tom","BIT","ST",136,1960,1960,1960,1
+"58246","Escanaba Operating Services LLC",1771,"Conventional Steam Coal","Escanaba","BIT","ST",23,1958,1958,1958,1
+"5860","Empire District Electric Co",2076,"Conventional Steam Coal","Asbury","SUB","ST",18.7,1986,1986,1986,1
+"58620","AEP Generation Resources Inc",2840,"Conventional Steam Coal","Conesville","BIT","ST",445.5,1959,1962,1957,1
+"58620","AEP Generation Resources Inc",2843,"Conventional Steam Coal","Picway","BIT","ST",106.2,1955,1955,1955,1
+"58620","AEP Generation Resources Inc",2872,"Conventional Steam Coal","Muskingum River","BIT","ST",1529.4,1958,1968,1953,1
+"58620","AEP Generation Resources Inc",3947,"Conventional Steam Coal","Kammer","BIT","ST",712.5,1958,1959,1958,1
+"58793","Missouri University of Science and Technology",58923,"Conventional Steam Coal","Missouri S&T - Power Plant","BIT","ST",0.5,1951,1951,1951,1
+"59919","Dynegy Miami Fort",2832,"Conventional Steam Coal","Miami Fort","BIT","ST",263.2,1954,1960,1949,1
+"59928","Footprint Salem Harbor Development LP",1626,"Conventional Steam Coal","Salem Harbor","BIT","ST",329.6,1954,1958,1952,1
+"6035","Exelon Power",3159,"Conventional Steam Coal","Cromby Generating Station","BIT","ST",187.5,1954,1954,1954,1
+"6035","Exelon Power",3161,"Conventional Steam Coal","Eddystone Generating Station","BIT","ST",707.2,1960,1960,1960,1
+"6526","FirstEnergy Generation Corp",2835,"Conventional Steam Coal","FirstEnergy Ashtabula","BIT","ST",184,1962,1972,1953,1
+"6526","FirstEnergy Generation Corp",2835,"Conventional Steam Coal","FirstEnergy Ashtabula","SUB","ST",256,1958,1958,1958,1
+"6526","FirstEnergy Generation Corp",2837,"Conventional Steam Coal","FirstEnergy Eastlake","BIT","ST",680,1972,1972,1972,1
+"6526","FirstEnergy Generation Corp",2837,"Conventional Steam Coal","FirstEnergy Eastlake","SUB","ST",577,1954,1956,1953,1
+"6526","FirstEnergy Generation Corp",2838,"Conventional Steam Coal","FirstEnergy Lake Shore","SUB","ST",256,1962,1962,1962,1
+"6526","FirstEnergy Generation Corp",2864,"Conventional Steam Coal","FirstEnergy R E Burger","BIT","ST",540.8,1950,1955,1944,1
+"6526","FirstEnergy Generation Corp",2867,"Conventional Steam Coal","FirstEnergy Toronto","BIT","ST",173,1946,1949,1940,1
+"6526","FirstEnergy Generation Corp",2877,"Conventional Steam Coal","FirstEnergy Acme","BIT","ST",72,1951,1951,1951,1
+"6526","FirstEnergy Generation Corp",2878,"Conventional Steam Coal","FirstEnergy Bay Shore","SUB","ST",498.8,1963,1968,1959,1
+"7140","Georgia Power Co",699,"Conventional Steam Coal","Arkwright","BIT","ST",89.2,1946,1948,1943,1
+"7140","Georgia Power Co",709,"Conventional Steam Coal","Harllee Branch","BIT","ST",1746.2,1967,1969,1965,1
+"7140","Georgia Power Co",710,"Conventional Steam Coal","Jack McDonough","BIT","ST",598.4,1964,1964,1963,1
+"7140","Georgia Power Co",727,"Conventional Steam Coal","Mitchell (GA)","BIT","ST",218.2,1953,1964,1948,1
+"7140","Georgia Power Co",728,"Conventional Steam Coal","Yates","BIT","ST",679.9,1953,1958,1950,1
+"7140","Georgia Power Co",733,"Conventional Steam Coal","Kraft","BIT","ST",207.9,1961,1965,1958,1
+"733","Appalachian Power Co",3775,"Conventional Steam Coal","Clinch River","BIT","ST",237.5,1961,1961,1961,1
+"733","Appalachian Power Co",3776,"Conventional Steam Coal","Glen Lyn","BIT","ST",337.5,1950,1957,1944,1
+"733","Appalachian Power Co",3938,"Conventional Steam Coal","Philip Sporn","BIT","ST",1105.5,1953,1960,1950,1
+"772","Archer Daniels Midland Co",10860,"Conventional Steam Coal","Archer Daniels Midland Clinton","BIT","ST",31.4,1965,1991,1940,1
+"772","Archer Daniels Midland Co",10866,"Conventional Steam Coal","Archer Daniels Midland Peoria","BIT","ST",15,1958,1985,1934,1
+"772","Archer Daniels Midland Co",55638,"Conventional Steam Coal","Walhalla","SUB","ST",2,2000,2000,2000,1
+"7801","Gulf Power Co",642,"Conventional Steam Coal","Scholz","BIT","ST",98,1953,1953,1953,1
+"7801","Gulf Power Co",643,"Conventional Steam Coal","Lansing Smith","BIT","ST",340,1966,1967,1965,1
+"803","Arizona Public Service Co",113,"Conventional Steam Coal","Cholla","SUB","ST",288.9,1978,1978,1978,1
+"803","Arizona Public Service Co",2442,"Conventional Steam Coal","Four Corners","BIT","ST",633.4,1963,1964,1963,1
+"8723","City of Holland",1830,"Conventional Steam Coal","James De Young","BIT","ST",11.5,1951,1951,1951,1
+"9231","City of Independence - (MO)",2171,"Conventional Steam Coal","Missouri City","BIT","ST",46,1954,1954,1954,1
+"9267","Hoosier Energy R E C, Inc",1043,"Conventional Steam Coal","Frank E Ratts","BIT","ST",233.2,1970,1970,1970,1
+"9273","Indianapolis Power & Light Co",991,"Conventional Steam Coal","Eagle Valley (IN)","BIT","ST",301.6,1953,1956,1951,1
+"9324","Indiana Michigan Power Co",988,"Conventional Steam Coal","Tanners Creek","BIT","ST",1100.1,1955,1964,1951,1
+"9332","Indian River Operations Inc",594,"Conventional Steam Coal","Indian River Generating Station","BIT","ST",340,1962,1970,1957,1
+"9417","Interstate Power and Light Co",1046,"Conventional Steam Coal","Dubuque","SUB","ST",15,1929,1929,1929,1
+"9417","Interstate Power and Light Co",1047,"Conventional Steam Coal","Lansing","SUB","ST",64,1951,1957,1948,1
+"9417","Interstate Power and Light Co",1058,"Conventional Steam Coal","Sixth Street","BIT","ST",20,1923,1925,1921,1
+"9417","Interstate Power and Light Co",1058,"Conventional Steam Coal","Sixth Street","SUB","ST",64.7,1942,1950,1930,1
+"9417","Interstate Power and Light Co",1073,"Conventional Steam Coal","Prairie Creek","SUB","ST",23,1951,1951,1951,1
+"9417","Interstate Power and Light Co",1077,"Conventional Steam Coal","Sutherland","SUB","ST",37.5,1955,1955,1955,1
+"9434","Iowa State University",54201,"Conventional Steam Coal","Iowa State University","BIT","ST",3,1949,1949,1949,1
+"9667","City of Jasper - (IN)",6225,"Conventional Steam Coal","Jasper 2","BIT","ST",14.5,1968,1968,1968,1
+"9686","RockTenn-Jackson Fenandina",10202,"Conventional Steam Coal","Fernandina Beach Mill","BIT","ST",9.3,1963,1963,1963,1
+"9765","John Deere Dubuque Works",54414,"Conventional Steam Coal","John Deere Dubuque Works","BIT","ST",14,1967,1989,1949,1
+"10000","Kansas City Power & Light Co",1241,"Conventional Steam Coal","La Cygne","SUB","ST",1578,1975,1977,1973,0
+"10000","Kansas City Power & Light Co",2079,"Conventional Steam Coal","Hawthorn","SUB","ST",594.3,1969,1969,1969,0
+"10000","Kansas City Power & Light Co",2080,"Conventional Steam Coal","Montrose","SUB","ST",376,1962,1964,1960,0
+"10000","Kansas City Power & Light Co",6065,"Conventional Steam Coal","Iatan","SUB","ST",1640,1995,2010,1980,0
+"10171","Kentucky Utilities Co",1355,"Conventional Steam Coal","E W Brown","BIT","ST",757.1,1963.66666666667,1971,1957,0
+"10171","Kentucky Utilities Co",1356,"Conventional Steam Coal","Ghent","BIT","ST",2225.9,1979,1984,1974,0
+"10623","City of Lakeland - (FL)",676,"Conventional Steam Coal","C D McIntosh Jr","BIT","ST",363.8,1982,1982,1982,0
+"10633","City of Lamar - (CO)",508,"Conventional Steam Coal","Lamar Plant","SUB","ST",43.5,1990.5,2009,1972,0
+"11208","Los Angeles Department of Water & Power",6481,"Conventional Steam Coal","Intermountain Power Project","BIT","ST",1640,1986.5,1987,1986,0
+"11241","Entergy Louisiana LLC",1393,"Conventional Steam Coal","R S Nelson","SUB","ST",614.6,1982,1982,1982,0
+"11249","Louisville Gas & Electric Co",1364,"Conventional Steam Coal","Mill Creek (KY)","BIT","ST",1717.2,1976.5,1982,1972,0
+"11249","Louisville Gas & Electric Co",6071,"Conventional Steam Coal","Trimble County","BIT","ST",1400.1,2000.5,2011,1990,0
+"11252","Louisiana Generating LLC",6055,"Conventional Steam Coal","Big Cajun 2","SUB","ST",1276.9,1982,1983,1981,0
+"11269","Lower Colorado River Authority",6179,"Conventional Steam Coal","Fayette Power Project","SUB","ST",1690,1982.33333333333,1988,1979,0
+"11701","City of Marquette - (MI)",1843,"Conventional Steam Coal","Shiras","BIT","ST",33.5,1969.5,1972,1967,0
+"11701","City of Marquette - (MI)",1843,"Conventional Steam Coal","Shiras","SUB","ST",44,1983,1983,1983,0
+"12199","Montana-Dakota Utilities Co",2790,"Conventional Steam Coal","R M Heskett","LIG","ST",115,1958.5,1963,1954,0
+"12199","Montana-Dakota Utilities Co",6089,"Conventional Steam Coal","Lewis & Clark","LIG","ST",50,1958,1958,1958,0
+"12341","MidAmerican Energy Co",1082,"Conventional Steam Coal","Walter Scott Jr Energy Center","RC","ST",1648.3,1992.5,2007,1978,0
+"12341","MidAmerican Energy Co",1091,"Conventional Steam Coal","George Neal North","RC","ST",584.1,1975,1975,1975,0
+"12341","MidAmerican Energy Co",6664,"Conventional Steam Coal","Louisa","RC","ST",811.9,1983,1983,1983,0
+"12341","MidAmerican Energy Co",7343,"Conventional Steam Coal","George Neal South","RC","ST",695.9,1979,1979,1979,0
+"12384","Midwest Generations EME LLC",384,"Conventional Steam Coal","Joliet 29","SUB","ST",1320,1965.5,1966,1965,0
+"12384","Midwest Generations EME LLC",874,"Conventional Steam Coal","Joliet 9","SUB","ST",360.4,1959,1959,1959,0
+"12384","Midwest Generations EME LLC",879,"Conventional Steam Coal","Powerton","SUB","ST",1785.6,1973.5,1975,1972,0
+"12384","Midwest Generations EME LLC",883,"Conventional Steam Coal","Waukegan","SUB","ST",681.7,1960,1962,1958,0
+"12384","Midwest Generations EME LLC",884,"Conventional Steam Coal","Will County","SUB","ST",598.4,1963,1963,1963,0
+"12628","NRG Chalk Point LLC",1571,"Conventional Steam Coal","Chalk Point LLC","BIT","ST",728,1964.5,1965,1964,0
+"12647","ALLETE, Inc.",10075,"Conventional Steam Coal","Taconite Harbor Energy Center","SUB","ST",168,1957,1957,1957,0
+"12647","ALLETE, Inc.",1893,"Conventional Steam Coal","Clay Boswell","SUB","ST",1072.5,1967.75,1980,1958,0
+"12653","GenOn Mid-Atlantic LLC",1572,"Conventional Steam Coal","Dickerson","BIT","ST",588,1960.33333333333,1962,1959,0
+"12653","GenOn Mid-Atlantic LLC",1573,"Conventional Steam Coal","Morgantown Generating Plant","BIT","ST",1252,1970.5,1971,1970,0
+"12658","Minnkota Power Coop, Inc",2823,"Conventional Steam Coal","Milton R Young","RC","ST",734,1973.5,1977,1970,0
+"12686","Mississippi Power Co",6073,"Conventional Steam Coal","Victor J Daniel Jr","BIT","ST",1096.6,1979,1981,1977,0
+"12796","Monongahela Power Co",3943,"Conventional Steam Coal","FirstEnergy Fort Martin Power Station","BIT","ST",1152,1967.5,1968,1967,0
+"12949","Morgantown Energy Associates",10743,"Conventional Steam Coal","Morgantown Energy Facility","WC","ST",68.9,1991,1991,1991,0
+"1307","Basin Electric Power Coop",2817,"Conventional Steam Coal","Leland Olds","RC","ST",656,1970.5,1975,1966,0
+"1307","Basin Electric Power Coop",56609,"Conventional Steam Coal","Dry Fork Station","SUB","ST",483.7,2011,2011,2011,0
+"1307","Basin Electric Power Coop",6204,"Conventional Steam Coal","Laramie River Station","SUB","ST",1710,1981.33333333333,1982,1981,0
+"1307","Basin Electric Power Coop",6469,"Conventional Steam Coal","Antelope Valley","LIG","ST",869.8,1985,1986,1984,0
+"13143","Board of Water Electric & Communications",1167,"Conventional Steam Coal","Muscatine Plant #1","RC","ST",293.5,1977.5,2000,1958,0
+"13337","Nebraska Public Power District",2277,"Conventional Steam Coal","Sheldon","SUB","ST",228.7,1963,1965,1961,0
+"13337","Nebraska Public Power District",6077,"Conventional Steam Coal","Gerald Gentleman","SUB","ST",1362.6,1980.5,1982,1979,0
+"13407","Nevada Power Co",2324,"Conventional Steam Coal","Reid Gardner","BIT","ST",294.8,1983,1983,1983,0
+"13579","Dunkirk Power LLC",2554,"Conventional Steam Coal","Dunkirk Generating Plant","SUB","ST",627.2,1954.75,1960,1950,0
+"13756","Northern Indiana Pub Serv Co",6085,"Conventional Steam Coal","R M Schahfer","BIT","ST",847,1984.5,1986,1983,0
+"13756","Northern Indiana Pub Serv Co",6085,"Conventional Steam Coal","R M Schahfer","SUB","ST",1096.4,1977.5,1979,1976,0
+"13756","Northern Indiana Pub Serv Co",995,"Conventional Steam Coal","Bailly","BIT","ST",603.5,1965,1968,1962,0
+"13756","Northern Indiana Pub Serv Co",997,"Conventional Steam Coal","Michigan City","SUB","ST",540,1974,1974,1974,0
+"13781","Northern States Power Co - Minnesota",1915,"Conventional Steam Coal","Allen S King","SUB","ST",598.4,1958,1958,1958,0
+"13781","Northern States Power Co - Minnesota",6090,"Conventional Steam Coal","Sherburne County","SUB","ST",2469.3,1980,1987,1976,0
+"13833","Northeastern Power Co",50039,"Conventional Steam Coal","Kline Township Cogen Facility","WC","ST",59,1989,1989,1989,0
+"14015","Ohio Valley Electric Corp",2876,"Conventional Steam Coal","Kyger Creek","BIT","ST",1086.5,1955,1955,1955,0
+"14063","Oklahoma Gas & Electric Co",2952,"Conventional Steam Coal","Muskogee","SUB","ST",1716,1979.66666666667,1984,1977,0
+"14063","Oklahoma Gas & Electric Co",6095,"Conventional Steam Coal","Sooner","SUB","ST",1138,1979.5,1980,1979,0
+"14127","Omaha Public Power District",2291,"Conventional Steam Coal","North Omaha","SUB","ST",353.6,1965.5,1968,1963,0
+"14127","Omaha Public Power District",6096,"Conventional Steam Coal","Nebraska City","SUB","ST",1389.6,1994,2009,1979,0
+"14165","NRG Power Midwest LP",2836,"Conventional Steam Coal","Avon Lake","BIT","ST",680,1970,1970,1970,0
+"14165","NRG Power Midwest LP",8226,"Conventional Steam Coal","Cheswick Power Plant","BIT","ST",637,1970,1970,1970,0
+"14194","City of Orrville - (OH)",2935,"Conventional Steam Coal","Orrville","BIT","ST",84.5,1961.4,1971,1949,0
+"14232","Otter Tail Power Co",1943,"Conventional Steam Coal","Hoot Lake","SUB","ST",129.4,1961.5,1964,1959,0
+"14232","Otter Tail Power Co",6098,"Conventional Steam Coal","Big Stone","SUB","ST",450,1975,1975,1975,0
+"14232","Otter Tail Power Co",8222,"Conventional Steam Coal","Coyote","LIG","ST",450,1981,1981,1981,0
+"14268","City of Owensboro - (KY)",1374,"Conventional Steam Coal","Elmer Smith","BIT","ST",445.3,1969,1974,1964,0
+"14310","P H Glatfelter Co",50397,"Conventional Steam Coal","P H Glatfelter","BIT","ST",70.4,1964.4,1989,1948,0
+"14354","PacifiCorp",4158,"Conventional Steam Coal","Dave Johnston","SUB","ST",922.2,1964,1972,1959,0
+"14354","PacifiCorp",4162,"Conventional Steam Coal","Naughton","SUB","ST",832,1967.33333333333,1971,1963,0
+"14354","PacifiCorp",6101,"Conventional Steam Coal","Wyodak","SUB","ST",402.3,1978,1978,1978,0
+"14354","PacifiCorp",6165,"Conventional Steam Coal","Hunter","BIT","ST",1577.2,1980.33333333333,1983,1978,0
+"14354","PacifiCorp",8066,"Conventional Steam Coal","Jim Bridger","SUB","ST",2441.9,1976,1979,1974,0
+"14354","PacifiCorp",8069,"Conventional Steam Coal","Huntington","BIT","ST",1037.3,1975.5,1977,1974,0
+"14381","City of Painesville",2936,"Conventional Steam Coal","Painesville","BIT","ST",53.5,1964.25,1990,1949,0
+"14432","Panther Creek Power Operating, LLC",50776,"Conventional Steam Coal","Panther Creek Energy Facility","WC","ST",94,1992,1992,1992,0
+"14610","Orlando Utilities Comm",564,"Conventional Steam Coal","Stanton Energy Center","BIT","ST",929,1991.5,1996,1987,0
+"14932","US Operating Services Company",10043,"Conventional Steam Coal","Logan Generating Company LP","BIT","ST",242.3,1994,1994,1994,0
+"14932","US Operating Services Company",10566,"Conventional Steam Coal","Chambers Cogeneration LP","BIT","ST",285,1994,1994,1994,0
+"14932","US Operating Services Company",50974,"Conventional Steam Coal","Scrubgrass Generating Company LP","WC","ST",94.7,1993,1993,1993,0
+"14932","US Operating Services Company",50976,"Conventional Steam Coal","Indiantown Cogeneration LP","BIT","ST",395.4,1995,1995,1995,0
+"15143","Platte River Power Authority",6761,"Conventional Steam Coal","Rawhide","SUB","ST",293.6,1984,1984,1984,0
+"15147","PSEG Fossil LLC",2408,"Conventional Steam Coal","PSEG Mercer Generating Station","BIT","ST",652.8,1960.5,1961,1960,0
+"15248","Portland General Electric Co",6106,"Conventional Steam Coal","Boardman","SUB","ST",642.2,1980,1980,1980,0
+"15298","Talen Montana LLC",6076,"Conventional Steam Coal","Colstrip","SUB","ST",2272,1980.25,1986,1975,0
+"15330","Prairie State Generating Co LLC",55856,"Conventional Steam Coal","Prairie State Generating Station","BIT","ST",1766,2012,2012,2012,0
+"15452","PSEG Power Connecticut LLC",568,"Conventional Steam Coal","Bridgeport Station","SUB","ST",400,1968,1968,1968,0
+"15466","Public Service Co of Colorado",469,"Conventional Steam Coal","Cherokee","BIT","ST",380.8,1968,1968,1968,0
+"15466","Public Service Co of Colorado",470,"Conventional Steam Coal","Comanche (CO)","SUB","ST",1635.3,1986,2010,1973,0
+"15466","Public Service Co of Colorado",477,"Conventional Steam Coal","Valmont","BIT","ST",191.7,1964,1964,1964,0
+"15466","Public Service Co of Colorado",525,"Conventional Steam Coal","Hayden","BIT","ST",465.4,1970.5,1976,1965,0
+"15466","Public Service Co of Colorado",6248,"Conventional Steam Coal","Pawnee","SUB","ST",552.3,1981,1981,1981,0
+"15470","Duke Energy Indiana, LLC",1001,"Conventional Steam Coal","Cayuga","BIT","ST",1062,1971,1972,1970,0
+"15470","Duke Energy Indiana, LLC",1008,"Conventional Steam Coal","R Gallagher","BIT","ST",300,1959.5,1961,1958,0
+"15470","Duke Energy Indiana, LLC",6113,"Conventional Steam Coal","Gibson","BIT","ST",3339.5,1978,1982,1975,0
+"15472","Public Service Co of NH",2364,"Conventional Steam Coal","Merrimack","BIT","ST",459.2,1964,1968,1960,0
+"15472","Public Service Co of NH",2367,"Conventional Steam Coal","Schiller","BIT","ST",100,1954.5,1957,1952,0
+"15473","Public Service Co of NM",2451,"Conventional Steam Coal","San Juan","BIT","ST",1848,1977.5,1982,1973,0
+"15474","Public Service Co of Oklahoma",127,"Conventional Steam Coal","Oklaunion","SUB","ST",720,1986,1986,1986,0
+"15474","Public Service Co of Oklahoma",2963,"Conventional Steam Coal","Northeastern","SUB","ST",473,1979,1979,1979,0
+"15534","TalenEnergy Montour LLC",3149,"Conventional Steam Coal","TalenEnergy Montour","RC","ST",1775.1,1972.33333333333,1973,1971,0
+"15537","Brunner Island LLC",3140,"Conventional Steam Coal","Brunner Island","RC","ST",1616.1,1965,1969,1961,0
+"15873","GenOn Northeast Management Company",3118,"Conventional Steam Coal","Conemaugh","BIT","ST",1872,1970.5,1971,1970,0
+"15873","GenOn Northeast Management Company",3136,"Conventional Steam Coal","Keystone","BIT","ST",1872,1967.5,1968,1967,0
+"15989","City of Richmond - (IN)",1040,"Conventional Steam Coal","Whitewater Valley","BIT","ST",93.9,1964,1973,1955,0
+"16233","Heorot Power Management",55749,"Conventional Steam Coal","Hardin Generator Project","SUB","ST",115.7,2006,2006,2006,0
+"16572","Salt River Project",4941,"Conventional Steam Coal","Navajo","BIT","ST",2409.3,1975,1976,1974,0
+"16572","Salt River Project",6177,"Conventional Steam Coal","Coronado","RC","ST",821.8,1979.5,1980,1979,0
+"16604","City of San Antonio - (TX)",6181,"Conventional Steam Coal","J T Deely","SUB","ST",932,1977.5,1978,1977,0
+"16604","City of San Antonio - (TX)",7097,"Conventional Steam Coal","J K Spruce","SUB","ST",1444,2001,2010,1992,0
+"16624","San Miguel Electric Coop, Inc",6183,"Conventional Steam Coal","San Miguel","LIG","ST",410,1982,1982,1982,0
+"16793","Schuylkill Energy Resource Inc",54634,"Conventional Steam Coal","St Nicholas Cogen Project","WC","ST",99.2,1990,1990,1990,0
+"1692","Big Rivers Electric Corp",1381,"Conventional Steam Coal","Kenneth C Coleman","BIT","ST",602,1970,1971,1969,0
+"1692","Big Rivers Electric Corp",1382,"Conventional Steam Coal","HMP&L Station Two Henderson","BIT","ST",405,1973.5,1974,1973,0
+"1692","Big Rivers Electric Corp",1383,"Conventional Steam Coal","Robert A Reid","BIT","ST",96,1966,1966,1966,0
+"1692","Big Rivers Electric Corp",6639,"Conventional Steam Coal","R D Green","BIT","ST",586,1980,1981,1979,0
+"1692","Big Rivers Electric Corp",6823,"Conventional Steam Coal","D B Wilson","BIT","ST",509.4,1984,1984,1984,0
+"17166","Sierra Pacific Power Co",8224,"Conventional Steam Coal","North Valmy","SUB","ST",567,1983,1985,1981,0
+"17177","City of Sikeston - (MO)",6768,"Conventional Steam Coal","Sikeston Power Station","SUB","ST",261,1981,1981,1981,0
+"1735","Birchwood Power Partners LP",54304,"Conventional Steam Coal","Birchwood Power","BIT","ST",258.3,1996,1996,1996,0
+"17539","South Carolina Electric&Gas Company",3297,"Conventional Steam Coal","Wateree","BIT","ST",771.8,1970.5,1971,1970,0
+"17539","South Carolina Electric&Gas Company",7210,"Conventional Steam Coal","Cope","RC","ST",417.3,1996,1996,1996,0
+"17543","South Carolina Public Service Authority",130,"Conventional Steam Coal","Cross","RC","ST",2390.1,1998.5,2008,1984,0
+"17543","South Carolina Public Service Authority",6249,"Conventional Steam Coal","Winyah","RC","ST",1260,1978.25,1981,1975,0
+"17554","South Carolina Genertg Co, Inc",3298,"Conventional Steam Coal","Williams","RC","ST",659.7,1973,1973,1973,0
+"17568","Cooperative Energy",6061,"Conventional Steam Coal","R D Morrow","BIT","ST",400,1978,1978,1978,0
+"17604","Southern Minnesota Beet Sugar",54533,"Conventional Steam Coal","Southern Minnesota Beet Sugar","SUB","ST",7.5,1976,1976,1976,0
+"17632","Southern Illinois Power Coop",976,"Conventional Steam Coal","Marion","BIT","ST",272,1966.75,1978,1963,0
+"17633","Southern Indiana Gas & Elec Co",1012,"Conventional Steam Coal","F B Culley","BIT","ST",368.9,1969.5,1973,1966,0
+"17633","Southern Indiana Gas & Elec Co",6137,"Conventional Steam Coal","A B Brown","BIT","ST",530.4,1982.5,1986,1979,0
+"17698","Southwestern Electric Power Co",56564,"Conventional Steam Coal","John W Turk Jr Power Plant","SUB","ST",609,2012,2012,2012,0
+"17698","Southwestern Electric Power Co",6138,"Conventional Steam Coal","Flint Creek","SUB","ST",558,1978,1978,1978,0
+"17698","Southwestern Electric Power Co",6139,"Conventional Steam Coal","Welsh","SUB","ST",1116,1979.5,1982,1977,0
+"17698","Southwestern Electric Power Co",7902,"Conventional Steam Coal","Pirkey","LIG","ST",721,1985,1985,1985,0
+"177","AES Hawaii Inc",10673,"Conventional Steam Coal","AES Hawaii","BIT","ST",203,1992,1992,1992,0
+"17718","Southwestern Public Service Co",6193,"Conventional Steam Coal","Harrington","SUB","ST",1080,1978,1980,1976,0
+"17718","Southwestern Public Service Co",6194,"Conventional Steam Coal","Tolk","SUB","ST",1135.8,1983.5,1985,1982,0
+"17828","City of Springfield - (IL)",963,"Conventional Steam Coal","Dallman","BIT","ST",617.8,1981.75,2009,1968,0
+"17833","City Utilities of Springfield - (MO)",2161,"Conventional Steam Coal","James River Power Station","SUB","ST",88,1958,1960,1957,0
+"17833","City Utilities of Springfield - (MO)",6195,"Conventional Steam Coal","John Twitty Energy Center","SUB","ST",494,1993.5,2011,1976,0
+"18315","Sunflower Electric Power Corp",108,"Conventional Steam Coal","Holcomb","SUB","ST",348.7,1983,1983,1983,0
+"18414","TES Filer City Station LP",50835,"Conventional Steam Coal","TES Filer City Station","BIT","ST",70,1990,1990,1990,0
+"18454","Tampa Electric Co",645,"Conventional Steam Coal","Big Bend","BIT","ST",1822.5,1976,1985,1970,0
+"18642","Tennessee Valley Authority",1378,"Conventional Steam Coal","Paradise","RC","ST",2558.2,1965.33333333333,1970,1963,0
+"18642","Tennessee Valley Authority",1379,"Conventional Steam Coal","Shawnee","SUB","ST",1575,1953.88888888889,1955,1953,0
+"18642","Tennessee Valley Authority",3393,"Conventional Steam Coal","Allen Steam Plant","SUB","ST",990,1959,1959,1959,0
+"18642","Tennessee Valley Authority",3396,"Conventional Steam Coal","Bull Run","BIT","ST",950,1967,1967,1967,0
+"18642","Tennessee Valley Authority",3399,"Conventional Steam Coal","Cumberland (TN)","RC","ST",2600,1973,1973,1973,0
+"18642","Tennessee Valley Authority",3403,"Conventional Steam Coal","Gallatin (TN)","SUB","ST",1255.2,1957.75,1959,1956,0
+"18642","Tennessee Valley Authority",3406,"Conventional Steam Coal","Johnsonville","SUB","ST",500,1951.5,1952,1951,0
+"18642","Tennessee Valley Authority",3407,"Conventional Steam Coal","Kingston","SUB","ST",1700,1954.55555555556,1955,1954,0
+"18715","Texas Municipal Power Agency",6136,"Conventional Steam Coal","Gibbons Creek","SUB","ST",453.5,1983,1983,1983,0
+"189","PowerSouth Energy Cooperative",56,"Conventional Steam Coal","Charles R Lowman","BIT","ST",538,1975.66666666667,1980,1969,0
+"19099","TransAlta Centralia Gen LLC",3845,"Conventional Steam Coal","Transalta Centralia Generation","RC","ST",1459.8,1972.5,1973,1972,0
+"19204","City of Trinidad - (CO)",511,"Conventional Steam Coal","Trinidad (CO)","BIT","ST",3.7,1950,1950,1950,0
+"19436","Union Electric Co - (MO)",2103,"Conventional Steam Coal","Labadie","SUB","ST",2389.4,1971.5,1973,1970,0
+"19436","Union Electric Co - (MO)",2104,"Conventional Steam Coal","Meramec","SUB","ST",923,1956.75,1961,1953,0
+"19436","Union Electric Co - (MO)",2107,"Conventional Steam Coal","Sioux","RC","ST",1099.4,1967.5,1968,1967,0
+"19436","Union Electric Co - (MO)",6155,"Conventional Steam Coal","Rush Island","RC","ST",1242,1976.5,1977,1976,0
+"195","Alabama Power Co",26,"Conventional Steam Coal","E C Gaston","BIT","ST",952,1974,1974,1974,0
+"195","Alabama Power Co",3,"Conventional Steam Coal","Barry","BIT","ST",1192.5,1970,1971,1969,0
+"195","Alabama Power Co",6002,"Conventional Steam Coal","James H Miller Jr","SUB","ST",2822,1985.75,1991,1978,0
+"195","Alabama Power Co",8,"Conventional Steam Coal","Gorgas","BIT","ST",1166.7,1962,1972,1956,0
+"19511","University of Alaska",50711,"Conventional Steam Coal","University of Alaska Fairbanks","SUB","ST",13,1969.66666666667,1981,1964,0
+"19539","University of Iowa",54775,"Conventional Steam Coal","University of Iowa Main Power Plant","BIT","ST",21,1959,1974,1947,0
+"19541","University of North Carolina",54276,"Conventional Steam Coal","Univ of NC Chapel Hill Cogen Facility","BIT","ST",28,1991,1991,1991,0
+"19545","Black Hills Power, Inc. d/b/a",55479,"Conventional Steam Coal","Wygen 1","SUB","ST",90,2003,2003,2003,0
+"19545","Black Hills Power, Inc. d/b/a",56319,"Conventional Steam Coal","Wygen 2","SUB","ST",95,2008,2008,2008,0
+"19545","Black Hills Power, Inc. d/b/a",56596,"Conventional Steam Coal","Wygen III","SUB","ST",116,2010,2010,2010,0
+"19545","Black Hills Power, Inc. d/b/a",7504,"Conventional Steam Coal","Neil Simpson II","SUB","ST",90,1995,1995,1995,0
+"19564","University of Notre Dame",50366,"Conventional Steam Coal","University of Notre Dame","BIT","ST",16.4,1974.33333333333,2000,1956,0
+"19876","Virginia Electric & Power Co",3797,"Conventional Steam Coal","Chesterfield","BIT","ST",1352.9,1961.25,1969,1952,0
+"19876","Virginia Electric & Power Co",3809,"Conventional Steam Coal","Yorktown","BIT","ST",375,1958,1959,1957,0
+"19876","Virginia Electric & Power Co",3954,"Conventional Steam Coal","Mt Storm","BIT","ST",1662.4,1968,1973,1965,0
+"19876","Virginia Electric & Power Co",52007,"Conventional Steam Coal","Mecklenburg Power Station","BIT","ST",139.8,1992,1992,1992,0
+"19876","Virginia Electric & Power Co",56808,"Conventional Steam Coal","Virginia City Hybrid Energy Center","BIT","ST",668,2012,2012,2012,0
+"19876","Virginia Electric & Power Co",7213,"Conventional Steam Coal","Clover","BIT","ST",848,1995.5,1996,1995,0
+"20447","Western Farmers Elec Coop, Inc",6772,"Conventional Steam Coal","Hugo","SUB","ST",446,1982,1982,1982,0
+"20508","WestRock Corp",50900,"Conventional Steam Coal","Covington Facility","BIT","ST",44.5,1970,1989,1951,0
+"20541","Wheelabrator Environmental Systems",50879,"Conventional Steam Coal","Wheelabrator Frackville Energy","WC","ST",48,1988,1988,1988,0
+"20737","Willmar Municipal Utilities",2022,"Conventional Steam Coal","Willmar","SUB","ST",18,1970,1970,1970,0
+"20847","Wisconsin Electric Power Co",1769,"Conventional Steam Coal","Presque Isle","SUB","ST",450,1976.8,1979,1974,0
+"20847","Wisconsin Electric Power Co",4041,"Conventional Steam Coal","South Oak Creek","RC","ST",1240,1963,1967,1959,0
+"20847","Wisconsin Electric Power Co",56068,"Conventional Steam Coal","Elm Road Generating Station","RC","ST",1402.6,2010.5,2011,2010,0
+"20847","Wisconsin Electric Power Co",6170,"Conventional Steam Coal","Pleasant Prairie","RC","ST",1233.2,1982.5,1985,1980,0
+"20856","Wisconsin Power & Light Co",4050,"Conventional Steam Coal","Edgewater","SUB","ST",764.7,1977,1985,1969,0
+"20856","Wisconsin Power & Light Co",8023,"Conventional Steam Coal","Columbia (WI)","SUB","ST",1112,1976.5,1978,1975,0
+"20860","Wisconsin Public Service Corp",4072,"Conventional Steam Coal","Pulliam","SUB","ST",231.2,1961,1964,1958,0
+"20860","Wisconsin Public Service Corp",4078,"Conventional Steam Coal","Weston","SUB","ST",945.5,1994.5,2008,1981,0
+"21","AES Shady Point LLC",10671,"Conventional Steam Coal","AES Shady Point LLC","RC","ST",350,1990,1990,1990,0
+"21223","University of Northern Iowa",50088,"Conventional Steam Coal","University of Northern Iowa","BIT","ST",7.5,1982,1982,1982,0
+"21554","Seminole Electric Cooperative Inc",136,"Conventional Steam Coal","Seminole (FL)","BIT","ST",1471.8,1984,1984,1984,0
+"21734","Sunnyside Cogeneration Assoc",50951,"Conventional Steam Coal","Sunnyside Cogen Associates","WC","ST",58.1,1993,1993,1993,0
+"22053","Kentucky Power Co",3948,"Conventional Steam Coal","Mitchell (WV)","BIT","ST",1632.6,1971,1971,1971,0
+"22125","Cayuga Operating Company, LLC",2535,"Conventional Steam Coal","Cayuga Operating Company","BIT","ST",322.5,1956.5,1958,1955,0
+"22129","Somerset Operating Co LLC",6082,"Conventional Steam Coal","Somerset Operating Co LLC","BIT","ST",655.1,1984,1984,1984,0
+"22199","U S Air Force-Eielson AFB",50392,"Conventional Steam Coal","Eielson AFB Central Heat & Power Plant","SUB","ST",25,1963,1987,1952,0
+"22218","U S Army-Radford",52072,"Conventional Steam Coal","Radford Army Ammunition Plant","BIT","ST",24,1990,1990,1990,0
+"22500","Westar Energy Inc",1250,"Conventional Steam Coal","Lawrence Energy Center","SUB","ST",517,1965.5,1971,1960,0
+"22500","Westar Energy Inc",1252,"Conventional Steam Coal","Tecumseh Energy Center","SUB","ST",82,1957,1957,1957,0
+"22500","Westar Energy Inc",6068,"Conventional Steam Coal","Jeffrey Energy Center","SUB","ST",2160,1980.33333333333,1983,1978,0
+"23013","EIF Northampton GP, LLC",50888,"Conventional Steam Coal","Northampton Generating Company LP","WC","ST",134.1,1995,1995,1995,0
+"23279","Allegheny Energy Supply Co LLC",3944,"Conventional Steam Coal","FirstEnergy Harrison Power Station","BIT","ST",2052,1973,1974,1972,0
+"23279","Allegheny Energy Supply Co LLC",6004,"Conventional Steam Coal","FirstEnergy Pleasants Power Station","RC","ST",1368,1979.5,1980,1979,0
+"23815","Blue Ridge Paper Products Inc",50244,"Conventional Steam Coal","Canton North Carolina","BIT","ST",52.5,1950.66666666667,1979,1937,0
+"24211","Tucson Electric Power Co",8223,"Conventional Steam Coal","Springerville","SUB","ST",1765.8,1997.5,2009,1985,0
+"25","Greenidge Generation Holdings LLC",2527,"Conventional Steam Coal","Greenidge Generation LLC","BIT","ST",112,1953,1953,1953,0
+"261","AGC Division of APG Inc",6705,"Conventional Steam Coal","Warrick","BIT","ST",822.8,1964.75,1970,1960,0
+"2769","Cargill Inc",54965,"Conventional Steam Coal","Cargill Salt","BIT","ST",2,1968,1968,1968,0
+"2884","Cambria CoGen Co",10641,"Conventional Steam Coal","Cambria Cogen","WC","ST",98,1991,1991,1991,0
+"30151","Tri-State G & T Assn, Inc",527,"Conventional Steam Coal","Nucla","BIT","ST",113.8,1967,1991,1959,0
+"30151","Tri-State G & T Assn, Inc",6021,"Conventional Steam Coal","Craig (CO)","SUB","ST",1427.6,1981,1984,1979,0
+"30151","Tri-State G & T Assn, Inc",87,"Conventional Steam Coal","Escalante","SUB","ST",257,1984,1984,1984,0
+"3046","Duke Energy Progress - (NC)",2706,"Conventional Steam Coal","Asheville","BIT","ST",413.6,1967.5,1971,1964,0
+"3046","Duke Energy Progress - (NC)",2712,"Conventional Steam Coal","Roxboro","BIT","ST",2558.2,1971.75,1980,1966,0
+"3046","Duke Energy Progress - (NC)",6250,"Conventional Steam Coal","Mayo","BIT","ST",763.2,1983,1983,1983,0
+"3106","Cargill Inc North America Sweetners",10855,"Conventional Steam Coal","Cargill Corn Milling Division","SUB","ST",40,1952,1952,1952,0
+"3203","Cedar Falls Utilities",1131,"Conventional Steam Coal","Streeter Station","BIT","ST",16.5,1963,1963,1963,0
+"3265","Cleco Power LLC",51,"Conventional Steam Coal","Dolet Hills","LIG","ST",720.7,1986,1986,1986,0
+"3265","Cleco Power LLC",6190,"Conventional Steam Coal","Brame Energy Center","SUB","ST",558,1982,1982,1982,0
+"34359","Curators of the University of Missouri",50969,"Conventional Steam Coal","MU Combined Heat and Power Plant","BIT","ST",53,1977.25,1988,1961,0
+"35","AES WR Ltd Partnership",10678,"Conventional Steam Coal","AES Warrior Run Cogeneration Facility","BIT","ST",229,1999,1999,1999,0
+"3593","Choctaw Generation L.P, L.L.L.P.",55076,"Conventional Steam Coal","Red Hills Generating Facility","RC","ST",513.7,2001,2001,2001,0
+"3807","Cleveland Cliffs Inc",10849,"Conventional Steam Coal","Silver Bay Power","SUB","ST",131.6,1958.5,1962,1955,0
+"3989","City of Colorado Springs - (CO)",492,"Conventional Steam Coal","Martin Drake","SUB","ST",207,1971,1974,1968,0
+"3989","City of Colorado Springs - (CO)",8219,"Conventional Steam Coal","Ray D Nixon","SUB","ST",207,1980,1980,1980,0
+"40230","Deseret Generation & Tran Coop",7790,"Conventional Steam Coal","Bonanza","BIT","ST",499.5,1986,1986,1986,0
+"4045","City of Columbia - (MO)",2123,"Conventional Steam Coal","Columbia (MO)","BIT","ST",22,1965,1965,1965,0
+"40606","City of Grand Island - (NE)",59,"Conventional Steam Coal","Platte","SUB","ST",109.8,1982,1982,1982,0
+"4217","Colstrip Energy LP",10784,"Conventional Steam Coal","Colstrip Energy LP","WC","ST",46.1,1990,1990,1990,0
+"4222","Ingredion Inc - Illinois",54556,"Conventional Steam Coal","Ingredion Incorporated","BIT","ST",45,1991,1991,1991,0
+"4254","Consumers Energy Co",1702,"Conventional Steam Coal","Dan E Karn","SUB","ST",544,1960,1961,1959,0
+"4254","Consumers Energy Co",1710,"Conventional Steam Coal","J H Campbell","SUB","ST",1560.8,1969.66666666667,1980,1962,0
+"450","The Amalgamated Sugar Co",10504,"Conventional Steam Coal","Amalgamated Sugar Twin Falls","BIT","ST",10.2,1963.33333333333,1994,1948,0
+"4538","Crisp County Power Comm",753,"Conventional Steam Coal","Crisp Plant","BIT","ST",12.5,1957,1957,1957,0
+"4716","Dairyland Power Coop",4143,"Conventional Steam Coal","Genoa","SUB","ST",345.6,1969,1969,1969,0
+"4716","Dairyland Power Coop",4271,"Conventional Steam Coal","John P Madgett","SUB","ST",387,1979,1979,1979,0
+"491","American Crystal Sugar Co",54210,"Conventional Steam Coal","American Crystal Sugar Hillsboro","SUB","ST",13.3,1990,1990,1990,0
+"491","American Crystal Sugar Co",54211,"Conventional Steam Coal","American Crystal Sugar Moorhead","SUB","ST",5,1954.5,1961,1948,0
+"491","American Crystal Sugar Co",54212,"Conventional Steam Coal","American Crystal Sugar Crookston","SUB","ST",6.5,1964.5,1975,1954,0
+"491","American Crystal Sugar Co",54213,"Conventional Steam Coal","American Crystal Sugar Drayton","SUB","ST",6,1965,1965,1965,0
+"491","American Crystal Sugar Co",54214,"Conventional Steam Coal","American Crystal Sugar East Grand Forks","SUB","ST",7.5,1990,1990,1990,0
+"4922","Dayton Power & Light Co",2850,"Conventional Steam Coal","J M Stuart","BIT","ST",2440.8,1971.75,1974,1970,0
+"4922","Dayton Power & Light Co",6031,"Conventional Steam Coal","Killen Station","BIT","ST",660.6,1982,1982,1982,0
+"49756","Illinois Power Resources Generating LLC",6016,"Conventional Steam Coal","Duck Creek","RC","ST",441,1976,1976,1976,0
+"49756","Illinois Power Resources Generating LLC",856,"Conventional Steam Coal","E D Edwards","SUB","ST",644.3,1970,1972,1968,0
+"49801","Expera Specialty Solutions",50933,"Conventional Steam Coal","Rhinelander Mill","BIT","ST",9.3,1958,1958,1958,0
+"49805","Kennecott Utah Copper",56163,"Conventional Steam Coal","Kennecott Power Plant","BIT","ST",82,1958,1958,1958,0
+"49889","Mount Carmel Cogen Inc",10343,"Conventional Steam Coal","Foster Wheeler Mt Carmel Cogen","WC","ST",47.3,1990,1990,1990,0
+"49896","Newmont Nevada Energy Investment, LLC",56224,"Conventional Steam Coal","TS Power Plant","SUB","ST",242,2008,2008,2008,0
+"49968","Searles Valley Minerals Operations Inc.",10684,"Conventional Steam Coal","Argus Cogen Plant","RC","ST",62.5,1967.66666666667,1978,1947,0
+"50021","Neenah Paper Michigan Inc.",54867,"Conventional Steam Coal","Neenah Paper Munising Mill","BIT","ST",6.2,1930,1930,1930,0
+"50097","Verso Luke LLC",50282,"Conventional Steam Coal","Luke Mill","BIT","ST",65,1968.5,1979,1958,0
+"5109","DTE Electric Company",1733,"Conventional Steam Coal","Monroe (MI)","RC","ST",3279.6,1972.75,1974,1971,0
+"5109","DTE Electric Company",1740,"Conventional Steam Coal","River Rouge","SUB","ST",358.1,1958,1958,1958,0
+"5109","DTE Electric Company",1743,"Conventional Steam Coal","St Clair","RC","ST",1547,1957.33333333333,1969,1953,0
+"5109","DTE Electric Company",1745,"Conventional Steam Coal","Trenton Channel","SUB","ST",535.5,1968,1968,1968,0
+"5109","DTE Electric Company",6034,"Conventional Steam Coal","Belle River","RC","ST",1395,1984.5,1985,1984,0
+"520","Illinois Power Generating Co",6017,"Conventional Steam Coal","Newton","RC","ST",617.4,1977,1977,1977,0
+"520","Illinois Power Generating Co",861,"Conventional Steam Coal","Coffeen","RC","ST",1005.4,1968.5,1972,1965,0
+"5336","City of Dover - (OH)",2914,"Conventional Steam Coal","Dover","BIT","ST",27.5,1961,1968,1954,0
+"5416","Duke Energy Carolinas, LLC",2718,"Conventional Steam Coal","G G Allen","BIT","ST",1148.4,1958.8,1961,1957,0
+"5416","Duke Energy Carolinas, LLC",2721,"Conventional Steam Coal","James E. Rogers Energy Complex","BIT","ST",1530.5,1992,2012,1972,0
+"5416","Duke Energy Carolinas, LLC",2727,"Conventional Steam Coal","Marshall (NC)","BIT","ST",2119,1967.5,1970,1965,0
+"5416","Duke Energy Carolinas, LLC",8042,"Conventional Steam Coal","Belews Creek","BIT","ST",2491.2,1974.5,1975,1974,0
+"54738","Thilmany LLC",54098,"Conventional Steam Coal","Kaukauna Paper Mill","BIT","ST",12,1967,1967,1967,0
+"54880","P H Glatfelter Company",10244,"Conventional Steam Coal","P H Glatfelter Co -Chillicothe Facility","BIT","ST",27.2,1978,1978,1978,0
+"54885","NRG Wholesale Generation LP",3130,"Conventional Steam Coal","Seward (PA)","WC","ST",585,2004,2004,2004,0
+"54888","NRG Texas Power LLC",298,"Conventional Steam Coal","Limestone","SUB","ST",1849.8,1985.5,1986,1985,0
+"54888","NRG Texas Power LLC",3470,"Conventional Steam Coal","W A Parish","SUB","ST",2736.8,1979.25,1982,1977,0
+"5517","Dynegy Midwest Generation Inc",889,"Conventional Steam Coal","Baldwin Energy Complex","RC","ST",1894.1,1972.66666666667,1975,1970,0
+"5517","Dynegy Midwest Generation Inc",891,"Conventional Steam Coal","Havana","RC","ST",488,1978,1978,1978,0
+"5517","Dynegy Midwest Generation Inc",892,"Conventional Steam Coal","Hennepin Power Station","RC","ST",306.3,1956,1959,1953,0
+"55729","Duke Energy Kentucky Inc",6018,"Conventional Steam Coal","East Bend","BIT","ST",772,1981,1981,1981,0
+"55739","Edgecombe Operating Services LLC",10384,"Conventional Steam Coal","Edgecombe Genco LLC","BIT","ST",114.8,1990,1990,1990,0
+"55740","Spruance Genco LLC",54081,"Conventional Steam Coal","Spruance Genco LLC","BIT","ST",229.6,1992,1992,1992,0
+"55768","RC Cape May Holdings LLC",2378,"Conventional Steam Coal","B L England","BIT","ST",163.2,1964,1964,1964,0
+"5580","East Kentucky Power Coop, Inc",1384,"Conventional Steam Coal","Cooper","BIT","ST",344,1967,1969,1965,0
+"5580","East Kentucky Power Coop, Inc",6041,"Conventional Steam Coal","H L Spurlock","BIT","ST",1608.5,1993,2009,1977,0
+"55808","Westmoreland Partners",54035,"Conventional Steam Coal","Roanoke Valley Energy Facility I","BIT","ST",182.3,1994,1994,1994,0
+"55808","Westmoreland Partners",54755,"Conventional Steam Coal","Roanoke Valley Energy Facility II","BIT","ST",57.8,1995,1995,1995,0
+"55861","Sandy Creek Energy Associates LP",56611,"Conventional Steam Coal","Sandy Creek Energy Station","SUB","ST",1008,2013,2013,2013,0
+"55924","Longview Power, LLC",56671,"Conventional Steam Coal","Longview Power Plant","BIT","ST",807.5,2011,2011,2011,0
+"55983","Luminant Generation Company LLC",3497,"Conventional Steam Coal","Big Brown","SUB","ST",1186.8,1971.5,1972,1971,0
+"55983","Luminant Generation Company LLC",52071,"Conventional Steam Coal","Sandow No 5","LIG","ST",661.5,2010,2010,2010,0
+"55983","Luminant Generation Company LLC",6146,"Conventional Steam Coal","Martin Lake","LIG","ST",2379.6,1978,1979,1977,0
+"55983","Luminant Generation Company LLC",6147,"Conventional Steam Coal","Monticello","SUB","ST",1980,1981.33333333333,1995,1974,0
+"55983","Luminant Generation Company LLC",6180,"Conventional Steam Coal","Oak Grove (TX)","LIG","ST",1795.4,2010.5,2011,2010,0
+"55983","Luminant Generation Company LLC",6648,"Conventional Steam Coal","Sandow No 4","LIG","ST",590.6,1981,1981,1981,0
+"5610","Eastman Chemical Co-TN Ops",50481,"Conventional Steam Coal","Tennessee Eastman Operations","BIT","ST",131.3,1961.21428571429,1994,1936,0
+"56155","Lansing Board of Water and Light",1831,"Conventional Steam Coal","Eckert Station","SUB","ST",240,1967.33333333333,1970,1964,0
+"56155","Lansing Board of Water and Light",1832,"Conventional Steam Coal","Erickson Station","SUB","ST",154.7,1973,1973,1973,0
+"56211","KCP&L Greater Missouri Operations Co",2094,"Conventional Steam Coal","Sibley","SUB","ST",524,1963.66666666667,1969,1960,0
+"56211","KCP&L Greater Missouri Operations Co",2098,"Conventional Steam Coal","Lake Road (MO)","SUB","ST",90,1966,1966,1966,0
+"5624","RED-Rochester, LLC",10025,"Conventional Steam Coal","RED-Rochester, LLC","BIT","ST",132.9,1974.85714285714,2015,1954,0
+"563","American Bituminous Power LP",10151,"Conventional Steam Coal","Grant Town Power Plant","WC","ST",95.7,1992,1992,1992,0
+"56389","Doyon Utilities - Ft. Wainwright",50308,"Conventional Steam Coal","Utility Plants Section","SUB","ST",20,1963.5,1989,1955,0
+"56570","Coleto Creek Power LP",6178,"Conventional Steam Coal","Coleto Creek","SUB","ST",622.4,1980,1980,1980,0
+"56598","Major Oak Power, LLC",7030,"Conventional Steam Coal","Major Oak Power","LIG","ST",349.2,1990.5,1991,1990,0
+"5670","Ebensburg Power Co",10603,"Conventional Steam Coal","Ebensburg Power","WC","ST",57.6,1990,1990,1990,0
+"57296","Sidney Sugars Incorporated",57914,"Conventional Steam Coal","Sidney MT Plant","LIG","ST",4,1950,1950,1950,0
+"57297","Tronox",57915,"Conventional Steam Coal","Tronox","SUB","ST",41,1965.33333333333,1975,1953,0
+"57302","Sonoco Products Co",57919,"Conventional Steam Coal","Sonoco Products Co","BIT","ST",28,1957,1957,1957,0
+"57306","Southern Illinois University Carbondale",57928,"Conventional Steam Coal","SIUC","BIT","ST",3.5,1998,1998,1998,0
+"57315","Western Sugar Cooperative",57937,"Conventional Steam Coal","Western Sugar Coop - Scottsbluff","SUB","ST",5,1987,1987,1987,0
+"57315","Western Sugar Cooperative",58081,"Conventional Steam Coal","Western Sugar Coop- Ft Morgan","SUB","ST",3,1947,1947,1947,0
+"57317","Wausau Paper Middletown",57940,"Conventional Steam Coal","Wausau Paper Middletown","BIT","ST",7.5,1986,1986,1986,0
+"57324","Michigan Sugar Company",57949,"Conventional Steam Coal","MSC Sebewaing","BIT","ST",2.5,1984.5,1990,1979,0
+"57440","SABIC IP Mt. Vernon, LLC",58063,"Conventional Steam Coal","SABIC Innovative Plastics Mt. Vernon","BIT","ST",5.5,1996,1996,1996,0
+"5748","Electric Energy Inc",887,"Conventional Steam Coal","Joppa Steam","RC","ST",1099.8,1954,1955,1953,0
+"58224","Westwood Generation LLC",50611,"Conventional Steam Coal","Westwood Generation LLC","WC","ST",36,1987,1987,1987,0
+"58534","Brayton Point Energy LLC",1619,"Conventional Steam Coal","Brayton Point","BIT","ST",1124.6,1965.33333333333,1969,1963,0
+"5860","Empire District Electric Co",2076,"Conventional Steam Coal","Asbury","SUB","ST",212.8,1970,1970,1970,0
+"58615","NRG Homer City Services LLC",3122,"Conventional Steam Coal","Homer City Generating Station","BIT","ST",2012,1971.66666666667,1977,1969,0
+"58620","AEP Generation Resources Inc",2828,"Conventional Steam Coal","Cardinal","BIT","ST",1880.4,1970.33333333333,1977,1967,0
+"58620","AEP Generation Resources Inc",2840,"Conventional Steam Coal","Conesville","BIT","ST",1729.3,1975.66666666667,1978,1973,0
+"58620","AEP Generation Resources Inc",8102,"Conventional Steam Coal","General James M Gavin","RC","ST",2600,1974.5,1975,1974,0
+"58905","NRG Energy Services - Plum Point",56456,"Conventional Steam Coal","Plum Point Energy Station","SUB","ST",720,2010,2010,2010,0
+"59621","North Carolina Renewable Power",10380,"Conventional Steam Coal","Elizabethtown Power LLC","BIT","ST",34.7,1985,1985,1985,0
+"59774","Crawfordsville Energy LLC",1024,"Conventional Steam Coal","Crawfordsville Power Plant","BIT","ST",24.1,1960,1965,1955,0
+"59918","Dynegy Kincaid Generation",876,"Conventional Steam Coal","Kincaid Generation LLC","SUB","ST",1319,1967.5,1968,1967,0
+"59919","Dynegy Miami Fort",2832,"Conventional Steam Coal","Miami Fort","BIT","ST",1114.8,1976.5,1978,1975,0
+"59920","Dynegy W H Zimmer",6019,"Conventional Steam Coal","W H Zimmer","BIT","ST",1425.6,1991,1991,1991,0
+"60415","CP Crane Power, LLC",1552,"Conventional Steam Coal","CP Crane Power, LLC","SUB","ST",399.8,1962,1963,1961,0
+"60421","Brandon Shores LLC",602,"Conventional Steam Coal","Brandon Shores","RC","ST",1370,1987.5,1991,1984,0
+"60422","H.A. Wagner LLC",1554,"Conventional Steam Coal","Herbert A Wagner","RC","ST",495,1962.5,1966,1959,0
+"60660","Catalyst Paper - Biron Mill",10234,"Conventional Steam Coal","Biron Mill","BIT","ST",40.1,1956,1964,1947,0
+"60660","Catalyst Paper - Biron Mill",10234,"Conventional Steam Coal","Biron Mill","SUB","ST",21.5,1987,1987,1987,0
+"6455","Duke Energy Florida, LLC",628,"Conventional Steam Coal","Crystal River","BIT","ST",2442.7,1975.25,1984,1966,0
+"6526","FirstEnergy Generation Corp",2866,"Conventional Steam Coal","FirstEnergy W H Sammis","BIT","ST",2455.6,1964.14285714286,1971,1959,0
+"6526","FirstEnergy Generation Corp",6094,"Conventional Steam Coal","FirstEnergy Bruce Mansfield","RC","ST",2741.1,1977.66666666667,1980,1976,0
+"6589","Georgia-Pacific Consr Prods LP-Muskogee",10362,"Conventional Steam Coal","Muskogee Mill","SUB","ST",114,1980.33333333333,1982,1979,0
+"6779","City of Fremont - (NE)",2240,"Conventional Steam Coal","Lon Wright","SUB","ST",130,1965.33333333333,1976,1957,0
+"6909","Gainesville Regional Utilities",663,"Conventional Steam Coal","Deerhaven Generating Station","BIT","ST",250.7,1981,1981,1981,0
+"7","Tate & Lyle Ingredients Americas Inc",10867,"Conventional Steam Coal","Tate & Lyle Decatur Plant Cogen","BIT","ST",62,1989,1989,1989,0
+"7067","Tata Chemicals Partners",54318,"Conventional Steam Coal","General Chemical","BIT","ST",30,1972.5,1977,1968,0
+"7140","Georgia Power Co",6052,"Conventional Steam Coal","Wansley","BIT","ST",1904,1977,1978,1976,0
+"7140","Georgia Power Co",6124,"Conventional Steam Coal","McIntosh","SUB","ST",177.6,1979,1979,1979,0
+"7140","Georgia Power Co",6257,"Conventional Steam Coal","Scherer","SUB","ST",3564,1985.5,1989,1982,0
+"7140","Georgia Power Co",703,"Conventional Steam Coal","Bowen","BIT","ST",3498.6,1973,1975,1971,0
+"7140","Georgia Power Co",708,"Conventional Steam Coal","Hammond","BIT","ST",953,1958.25,1970,1954,0
+"7199","Gilberton Power Co",10113,"Conventional Steam Coal","John B Rich Memorial Power Station","WC","ST",88.4,1988,1988,1988,0
+"733","Appalachian Power Co",3935,"Conventional Steam Coal","John E Amos","BIT","ST",2932.6,1972,1973,1971,0
+"733","Appalachian Power Co",3936,"Conventional Steam Coal","Kanawha River","BIT","ST",439.2,1953,1953,1953,0
+"733","Appalachian Power Co",6264,"Conventional Steam Coal","Mountaineer","BIT","ST",1300,1980,1980,1980,0
+"7353","Golden Valley Elec Assn Inc",6288,"Conventional Steam Coal","Healy","LIG","ST",90,1991.5,2016,1967,0
+"7483","City of Grand Haven - (MI)",1825,"Conventional Steam Coal","J B Sims","BIT","ST",80,1983,1983,1983,0
+"7490","Grand River Dam Authority",165,"Conventional Steam Coal","GREC","RC","ST",540,1981,1981,1981,0
+"7490","Grand River Dam Authority",165,"Conventional Steam Coal","GREC","SUB","ST",594,1985,1985,1985,0
+"7570","Great River Energy",2824,"Conventional Steam Coal","Stanton","SUB","ST",190.2,1967,1967,1967,0
+"7570","Great River Energy",56786,"Conventional Steam Coal","Spiritwood Station","LIG","ST",106.2,2014,2014,2014,0
+"7570","Great River Energy",6030,"Conventional Steam Coal","Coal Creek","LIG","ST",1209.6,1979.5,1980,1979,0
+"772","Archer Daniels Midland Co",10860,"Conventional Steam Coal","Archer Daniels Midland Clinton","SUB","ST",180,2009,2009,2009,0
+"772","Archer Daniels Midland Co",10861,"Conventional Steam Coal","Archer Daniels Midland Des Moines","SUB","ST",7.9,1988,1988,1988,0
+"772","Archer Daniels Midland Co",10862,"Conventional Steam Coal","Archer Daniels Midland Lincoln","SUB","ST",7.9,1988,1988,1988,0
+"772","Archer Daniels Midland Co",10863,"Conventional Steam Coal","Archer Daniels Midland Mankato","SUB","ST",6.1,1987,1987,1987,0
+"772","Archer Daniels Midland Co",10864,"Conventional Steam Coal","Archer Daniels Midland Cedar Rapids","SUB","ST",256.1,1991.16666666667,2000,1988,0
+"772","Archer Daniels Midland Co",10865,"Conventional Steam Coal","Archer Daniels Midland Decatur","BIT","ST",335,1992,2005,1987,0
+"772","Archer Daniels Midland Co",57046,"Conventional Steam Coal","Archer Daniels Midland Columbus","SUB","ST",71.4,2010,2010,2010,0
+"7801","Gulf Power Co",641,"Conventional Steam Coal","Crist","BIT","ST",1135.1,1965.75,1973,1959,0
+"796","Arizona Electric Pwr Coop Inc",160,"Conventional Steam Coal","Apache Station","SUB","ST",408,1979,1979,1979,0
+"803","Arizona Public Service Co",113,"Conventional Steam Coal","Cholla","SUB","ST",839.9,1974.33333333333,1981,1962,0
+"803","Arizona Public Service Co",2442,"Conventional Steam Coal","Four Corners","SUB","ST",1636.2,1969.5,1970,1969,0
+"814","Entergy Arkansas Inc",6009,"Conventional Steam Coal","White Bluff","SUB","ST",1800,1980.5,1981,1980,0
+"814","Entergy Arkansas Inc",6641,"Conventional Steam Coal","Independence Steam Electric Station","SUB","ST",1800,1983.5,1984,1983,0
+"8245","City of Hastings - (NE)",60,"Conventional Steam Coal","Whelan Energy Center","RC","ST",324.3,1996,2011,1981,0
+"8543","Hibbing Public Utilities Comm",1979,"Conventional Steam Coal","Hibbing","SUB","ST",35.9,1982,1996,1965,0
+"8723","City of Holland",1830,"Conventional Steam Coal","James De Young","BIT","ST",51.3,1965.5,1969,1962,0
+"924","Associated Electric Coop, Inc",2167,"Conventional Steam Coal","New Madrid","RC","ST",1300,1974.5,1977,1972,0
+"924","Associated Electric Coop, Inc",2168,"Conventional Steam Coal","Thomas Hill","RC","ST",1181.7,1972.33333333333,1982,1966,0
+"9267","Hoosier Energy R E C, Inc",6213,"Conventional Steam Coal","Merom","BIT","ST",1080,1982.5,1983,1982,0
+"9269","Indiana-Kentucky Electric Corp",983,"Conventional Steam Coal","Clifty Creek","BIT","ST",1303.8,1955.16666666667,1956,1955,0
+"9273","Indianapolis Power & Light Co",994,"Conventional Steam Coal","AES Petersburg","BIT","ST",2146.7,1974.75,1986,1967,0
+"9324","Indiana Michigan Power Co",6166,"Conventional Steam Coal","Rockport","SUB","ST",2600,1986.5,1989,1984,0
+"9332","Indian River Operations Inc",594,"Conventional Steam Coal","Indian River Generating Station","BIT","ST",445.5,1980,1980,1980,0
+"9379","Inter-Power/AhlCon Partners, L.P.",10143,"Conventional Steam Coal","Colver Power Project","WC","ST",118,1995,1995,1995,0
+"9417","Interstate Power and Light Co",1047,"Conventional Steam Coal","Lansing","SUB","ST",274.5,1977,1977,1977,0
+"9417","Interstate Power and Light Co",1073,"Conventional Steam Coal","Prairie Creek","SUB","ST",213.4,1974,1997,1958,0
+"9417","Interstate Power and Light Co",1104,"Conventional Steam Coal","Burlington (IA)","SUB","ST",212,1968,1968,1968,0
+"9417","Interstate Power and Light Co",6254,"Conventional Steam Coal","Ottumwa","SUB","ST",725.9,1981,1981,1981,0
+"9434","Iowa State University",54201,"Conventional Steam Coal","Iowa State University","BIT","ST",46,1978.25,2005,1960,0
+"9617","JEA",207,"Conventional Steam Coal","St Johns River Power Park","BIT","ST",1358,1987.5,1988,1987,0
+"9617","JEA",667,"Conventional Steam Coal","Northside Generating Station","BIT","ST",595,1969,1972,1966,0
+"9628","Hopewell Operating Services LLC",10377,"Conventional Steam Coal","James River Genco LLC","BIT","ST",114.8,1988,1988,1988,0
+"986","Aurora Energy LLC",79,"Conventional Steam Coal","Aurora Energy LLC Chena","SUB","ST",27.5,1959.66666666667,1975,1952,0
+"9996","City of Kansas City - (KS)",6064,"Conventional Steam Coal","Nearman Creek","SUB","ST",261,1981,1981,1981,0

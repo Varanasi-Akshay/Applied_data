@@ -1,0 +1,154 @@
+---
+title: "Simulation in R"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+```{r}
+## load 'em up
+library(MASS)
+library(dplyr)
+library(parallel)
+library(foreach)
+library(doMC) ## for Mac/Linux
+#library(doSNOW) ## for Windows
+```
+
+
+
+```{r}
+## set seed to get constant random numbers
+set.seed(27)
+
+## let's make some distributions of fuel prices to use
+## all these are modeled as independant, but if they depended on each other, you'd want to make them functions of each other, etc.
+## we will assume that gas and coal prices have normal distributions
+ng_price <- rnorm(1:10000, mean = 3, sd = 0.75)
+ng_price <- ng_price[ng_price > 0.5]
+sub_price <- rnorm(1:10000, mean = 1.5, sd = 0.25)
+sub_price <- sub_price[sub_price > 0.5]
+lig_price <- rnorm(1:10000, mean = 2.35, sd = 0.50)
+lig_price <- lig_price[lig_price > 0.5]
+nuke_price <- rnorm(1:10000, mean = 1.25, sd = 0.15)
+nuke_price <- nuke_price[nuke_price > 0.5]
+
+## see the distributions
+hist(ng_price, n = 100)
+hist(sub_price, n = 100)
+hist(lig_price, n = 100)
+hist(nuke_price, n = 100)
+
+```
+
+
+```{r}
+## run HWK4's opt model using a distribution of prices
+
+## source the optimization function you are working on for homework 4
+source('RHODES_HW4_reduc.R')
+set.seed(1000)
+  
+## set up a empty vector to catch all the output from the Monte Carlo simulations
+all_the_prices <- c()
+
+## this function, system.time(), tells you how long it takes to run a commamnd 
+system.time(
+  
+  ## run 50 simulations
+  for(i in 1:50){
+  
+  ## sample some of the above distributions
+  ng_price_sim <- sample(ng_price, 1)
+  sub_price_sim <- sample(sub_price, 1)
+  lig_price_sim <- sample(lig_price, 1)
+  nuke_price_sim <- sample(nuke_price, 1)
+  
+  ## run the optimization code and get a result, add that to the vector created earlier
+  ## note this version is a simplifed version of what you are working for, all it does is return the average price (doesn't make any of the graphs, etc.)
+  all_the_prices[i] <- RHODES_HW4_reduc(demand = 550000, emissions = 270000, ng_price_sim, sub_price_sim, lig_price_sim, nuke_price_sim)
+  
+  }
+) # end the system.time() function
+
+## create a histogram of the results with 10 bins
+hist(all_the_prices, n = 10)
+
+## fit a normal distribution to the results
+elec_price_distb <- MASS::fitdistr(x = all_the_prices, densfun = "normal")
+## get the mean and standard deviation of the fitted distribution
+model_fit <- elec_price_distb$estimate
+
+nice_line <- seq(min(all_the_prices), max(all_the_prices), 0.1)
+
+par(new = TRUE)
+
+## using the pipe operator: %>%
+dnorm(nice_line, mean = model_fit[1], sd = model_fit[2]) %>%
+  plot(col = 'red', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '', type = 'l', lwd = 3)
+
+print(elec_price_distb$estimate)
+
+```
+
+```{r}
+
+## let's do the same thing, but in parallel
+## for mac/linux
+registerDoMC(cores=5) #make as many as n-1
+set.seed(1000)
+
+## for windows
+#cl<-makeCluster(5)
+#registerDoSNOW(cl)
+
+source('RHODES_HW4_reduc.R')
+
+all_the_prices <- c()
+
+system.time(
+  
+  ## using a parallel loop for the same as above, 
+  all_the_prices <- foreach(i = 1:500) %dopar% {
+  
+  ng_price_sim <- sample(ng_price, 1)
+  sub_price_sim <- sample(sub_price, 1)
+  lig_price_sim <- sample(lig_price, 1)
+  nuke_price_sim <- sample(nuke_price, 1)
+  
+  elec_price <- RHODES_HW4_reduc(demand = 550000, emissions = 270000, ng_price_sim, sub_price_sim, lig_price_sim, nuke_price_sim)
+  
+  }
+)
+
+## dopar returns a list, so we need to unlist that to a vector
+all_the_prices <- unlist(all_the_prices)
+
+hist(all_the_prices, n = 100)
+
+elec_price_distb <- MASS::fitdistr(all_the_prices,"normal")
+model_fit <- elec_price_distb$estimate
+
+nice_line <- seq(min(all_the_prices), max(all_the_prices), 0.1)
+
+par(new = TRUE)
+
+dnorm(nice_line, mean = model_fit[1], sd = model_fit[2]) %>%
+  plot(col = 'red', xaxt = 'n', yaxt = 'n', xlab = '', ylab = '', type = 'l', lwd = 3)
+
+print(elec_price_distb$estimate)
+
+## WINDOWS MUST STOP CLUSTERS!!!
+#stopCluster(cl)
+
+```
+
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+

@@ -1,0 +1,12 @@
+name: State_App
+title: State_App
+username:
+account: joshdr83
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 593697
+bundleId: 1725177
+url: https://joshdr83.shinyapps.io/State_App/
+when: 1543380422.59622
+asMultiple: FALSE
+asStatic: FALSE

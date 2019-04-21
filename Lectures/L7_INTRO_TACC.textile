@@ -1,0 +1,164 @@
+## Using TACC
+
+####### How to login to TACC
+
+ssh <username>@maverick.tacc.utexas.edu
+
+## If you haven't set up 2-factor authentication, you might need to do so through the TACC User Portal
+
+
+####### Check what modules (programs) are availaible to use
+
+module avail
+
+## only R version 3.0.3 is availiable natively -- cannot access some packages, show (WILL NOT RUN):
+## before we try this out, we will need to set up an interactive development session first (idev)
+
+idev -m 30
+module load Rstats
+R
+> install.packages('data.table')
+> q()
+
+## How to check if another version is availiable
+
+module spider 
+
+## How to check if a program that starts with "R" is availiable
+
+module spider R
+
+## Ok so to get R 3.4.0, we have to load two other modules first
+
+module load intel/15.0.3  mvapich2/2.1
+
+## Now we can load R 3.4.0 and will have access to package:data.table
+
+module load Rstats
+R
+> install.packages('data.table')
+> q()
+
+## exit from the idev environment
+
+exit
+
+
+
+####### Transfering files to/from TACC (or any other remote computer) from your local machine (NOT LOOGED INTO TACC)
+
+# make a directory to play in and go into it
+
+mkdir me397
+cd me397
+
+# make a text file to edit
+
+touch my_text.txt
+vim my_text.txt
+<edit the file and then press esc button to stop editing, then :wq to save edits (w) and quit the editor (q)>
+
+
+# transfer a file FROM TACC
+
+scp username@a:/path/to/file /path/to/local/destination
+
+scp joshdr@maverick.tacc.utexas.edu:/home/01714/joshdr/me397/my_text.txt /Users/jdr2823/Downloads
+
+# transfer a file TO TACC (reverse)
+
+scp /path/to/file username@a:/path/to/destination
+
+scp /Users/jdr2823/Downloads/my_text_v2.txt joshdr@maverick.tacc.utexas.edu:/home/01714/joshdr/me397
+
+
+####### Running jobs on TACC through the main queue system (SLURM) 
+
+scp /Users/jdr2823/Box\ Sync/Teaching/Fall2018/ME397_data_class/Lectures/Lecture_7_EIA_TACC/TACC_files_demo.zip joshdr@maverick.tacc.utexas.edu:/home/01714/joshdr/me397
+
+# ON TACC, unzip the archive
+
+unzip TACC_files_demo.zip
+
+<edit files to be your pathways>
+
+# run the shell script (.sh) to submit the job to the TACC system
+
+sbatch TACC_INTRO_SHELL.sh
+
+# When your job is running, you can chekc its status with showq or showq -u tacc_username
+
+showq -u tacc_username
+
+
+
+####### Install your own software into your home directory, example: GAMS
+
+# go to home directory, make a new directory opt/gams, go to opt/gams, download the GAMS install file: https://www.gams.com/download/
+
+cd
+mkdir -p opt/gams
+cd opt/gams/
+wget https://d37drm4t2jghv5.cloudfront.net/distributions/25.0.2/linux/linux_x64_64_sfx.exe
+
+# shows you that you cannont install this program as-is...
+ls -l
+
+# you have to change the permissions of the .exe in order to make yourself able to execute it
+
+chmod 755 linux_x64_64_sfx.exe
+
+# install the program (already a .exe)
+
+linux_x64_64_sfx.exe
+
+# move into the directory made
+
+cd gams25.0_linux_x64_64_sfx/
+
+# run GAMS
+
+gams
+
+# make a shortcut to run GAMS from any other directory
+
+cd
+
+alias gams=~/opt/gams/gams25.0_linux_x64_64_sfx/gams
+alias gamslib=~/opt/gams/gams25.0_linux_x64_64_sfx/gamslib
+
+gams
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

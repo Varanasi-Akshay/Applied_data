@@ -1,0 +1,147 @@
+---
+title: "ShinyApps"
+author: "Josh"
+date: "11/27/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+library(shiny)
+library(rsconnect)
+
+# Define UI for miles per gallon app ----
+ui <- pageWithSidebar(
+  
+  # App title ----
+  headerPanel("Miles Per Gallon"),
+  
+  # Sidebar panel for inputs ----
+  sidebarPanel(),
+  
+  # Main panel for displaying outputs ----
+  mainPanel()
+)
+
+# Define server logic to plot various variables against mpg ----
+server <- function(input, output) {
+  
+}
+
+shinyApp(ui, server)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r}
+library(shiny)
+library(rsconnect)
+
+ui <- pageWithSidebar(
+  headerPanel('Iris k-means clustering'),
+  sidebarPanel(
+    selectInput('xcol', 'X Variable', names(iris)),
+    selectInput('ycol', 'Y Variable', names(iris),
+                selected=names(iris)[[2]]),
+    numericInput('clusters', 'Cluster count', 3,
+                 min = 1, max = 9)
+  ),
+  mainPanel(
+    plotOutput('plot1')
+  )
+)
+
+server <- function(input, output, session) {
+
+  # Combine the selected variables into a new data frame
+  selectedData <- reactive({
+    iris[, c(input$xcol, input$ycol)]
+  })
+
+  clusters <- reactive({
+    kmeans(selectedData(), input$clusters)
+  })
+
+  output$plot1 <- renderPlot({
+    palette(c("#E41A1C", "#377EB8", "#4DAF4A", "#984EA3",
+      "#FF7F00", "#FFFF33", "#A65628", "#F781BF", "#999999"))
+
+    par(mar = c(5.1, 4.1, 0, 1))
+    plot(selectedData(),
+         col = clusters()$cluster,
+         pch = 20, cex = 3)
+    points(clusters()$centers, pch = 4, cex = 4, lwd = 4)
+  })
+
+}
+
+shinyApp(ui, server)
+```
+
+```{r}
+
+library(shiny)
+library(rsconnect)
+
+library(sp)
+library(rgdal)
+library(raster)
+library(colorRamps)
+library(rasterVis)
+library(rgeos)
+
+## data to keep with the app
+county <- shapefile('US_COUNTY_SHPFILE/US_county_cont.shp')
+
+ui <- pageWithSidebar(
+  headerPanel('Plot a state'),
+  
+  sidebarPanel(
+    selectInput('state', 'Select State', sort(unique(county$STATE_NAME))),
+    selectInput('incl_county', 'Include counties?', c('Yes','No')),
+    textInput('fill_col', 'Fill color?', 'lightgray'),
+    textInput('bor_col', 'Border color?', 'black')
+  ),
+  
+  mainPanel(
+    plotOutput('plot1')
+  )
+)
+
+server <- function(input, output) {
+
+  # get the state name from the ui section and subset the county data to just that state
+  state_data <- reactive({
+    # if the user did not want to include counties, merge all the counties together
+    if (input$incl_county == 'No') {
+      
+      s1 <- county[county$STATE_NAME == input$state,]
+      gUnaryUnion(s1, id = s1@data$STATE_NAME)
+    # if user wanted counties, leave them as-is  
+    } 
+    else { county[county$STATE_NAME == input$state,] }
+  })
+  
+
+  output$plot1 <- renderPlot({
+    plot(state_data(), col = input$fill_col, border = input$bor_col) ## for some reason, state_data needs a () after it
+  })
+
+}
+
+shinyApp(ui, server)
+```
+
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

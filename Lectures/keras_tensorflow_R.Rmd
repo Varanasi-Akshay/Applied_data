@@ -1,0 +1,115 @@
+---
+title: "Keras in R"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+```{r}
+## install keras and tensorflow
+install.packages("keras")
+library(keras)
+install_keras()
+```
+
+```{r}
+#The MNIST dataset is included with Keras and can be accessed using the dataset_mnist() function. Here we load the dataset then create variables for our test and training data:
+
+
+mnist <- dataset_mnist()
+x_train <- mnist$train$x
+y_train <- mnist$train$y
+x_test <- mnist$test$x
+y_test <- mnist$test$y
+
+#The x data is a 3-d array (images,width,height) of grayscale values. To prepare the data for training we convert the 3-d arrays into matrices by reshaping width and height into a single dimension (28x28 images are flattened into length 784 vectors). Then, we convert the grayscale values from integers ranging between 0 to 255 into floating point values ranging between 0 and 1:
+
+dim(x_train)
+
+## rescale the image to be a vector of pixels
+dim(x_train) <- c(nrow(x_train), 784)
+dim(x_test) <- c(nrow(x_test), 784)
+
+dim(x_train)
+
+# rescale
+x_train <- x_train / 255
+x_test <- x_test / 255
+
+```
+
+```{r}
+#The y data is an integer vector with values ranging from 0 to 9. To prepare this data for training we one-hot encode the vectors into binary class matrices using the Keras to_categorical() function:
+
+# similair to the way we categorized types of coal plants with binaries, in fact, exactly like that
+
+y_train[1:20] # y_test is similiar
+
+y_train <- to_categorical(y_train, 10)
+y_test <- to_categorical(y_test, 10)
+
+
+y_train[1:20,1:10]
+summary(y_train) #shows how often a digit shows up
+
+
+```
+
+```{r}
+#The core data structure of Keras is a model, a way to organize layers. The simplest type of model is the sequential model, a linear stack of layers.
+#We begin by creating a sequential model and then adding layers using the pipe (%>%) operator:
+
+# In the keras NN we have to "manually" build the layers
+
+model <- keras_model_sequential() 
+model %>% 
+  layer_dense(units = 256, activation = "relu", input_shape = c(784)) %>% 
+  layer_dropout(rate = 0.4) %>% 
+  layer_dense(units = 128, activation = "relu") %>%
+  layer_dropout(rate = 0.3) %>%
+  layer_dense(units = 10, activation = "softmax")
+
+# activation = "relu" : https://www.tensorflow.org/api_guides/python/nn#Activation_Functions
+# Here softmax is serving as an “activation” or “link” function, shaping the output of our linear function into the form we want – in this case, a probability distribution over 10 cases. You can think of it as converting tallies of evidence into probabilities of our input being in each class. It’s defined as:
+
+?layer_dense
+
+summary(model)
+
+```
+
+```{r}
+# Next, compile the model with appropriate loss function, optimizer, and metrics:
+
+model %>% compile(
+  loss = "categorical_crossentropy",
+  optimizer = optimizer_rmsprop(),
+  metrics = c("accuracy")
+)
+```
+
+```{r}
+#Use the fit() function to train the model for 30 epochs using batches of 128 images:
+
+history <- model %>% fit(
+  x_train, y_train, 
+  epochs = 30, batch_size = 128, 
+  validation_split = 0.2
+)
+
+plot(history)
+
+model %>% evaluate(x_test, y_test,verbose = 0)
+
+# the loss is usually negative log-likelihood and residual sum of squares for classification and regression respectively
+```
+
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
